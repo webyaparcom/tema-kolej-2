@@ -1,0 +1,193 @@
+{
+  "data": [
+    {
+      "id": "bohyuosa7i",
+      "name": {
+        "tr": "Program",
+        "en": "Programme",
+        "ar": "البرنامج"
+      },
+      "description": {
+        "tr": "Haftalık ders programı ve okul felsefesi.",
+        "en": "Weekly timetable and school philosophy.",
+        "ar": "الجدول الأسبوعي وفلسفة المدرسة."
+      },
+      "path": "hizmetler",
+      "icon": "work",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "1qnalw",
+          "372a9m",
+          "cpxycm"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "name": {
+        "tr": "Okulumuz",
+        "en": "Our school",
+        "ar": "مدرستنا"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 1,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "372a9m",
+          "tq21zf",
+          "zw1it2"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Ortaokul ve lise; program, kulüpler ve takvim.",
+        "en": "Middle and high school; timetable, clubs and calendar.",
+        "ar": "المرحلتان المتوسطة والثانوية؛ الجدول والأندية والتقويم."
+      }
+    },
+    {
+      "id": "wzjo687c2j",
+      "name": {
+        "tr": "Öğretmenler",
+        "en": "Teachers",
+        "ar": "المعلمون"
+      },
+      "description": {
+        "tr": "Branşlara göre öğretmen kadrosu (kurgusal).",
+        "en": "Teaching staff by subject (fictional).",
+        "ar": "الكادر التعليمي حسب المادة (افتراضي)."
+      },
+      "path": "ekip",
+      "icon": "groups",
+      "category": "hakkimizda",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "m0l2b9",
+          "x212w6"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "l2kr386usy",
+      "name": {
+        "tr": "Sözlük",
+        "en": "Glossary",
+        "ar": "المصطلحات"
+      },
+      "description": {
+        "tr": "Velinin sözlüğü: sık sorulan sorular.",
+        "en": "The parent’s glossary: frequently asked questions.",
+        "ar": "قاموس ولي الأمر: الأسئلة الشائعة."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "78sz7o",
+          "cpxycm"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "ujps1k7gxt",
+      "name": {
+        "tr": "Topluluk",
+        "en": "Community",
+        "ar": "المجتمع"
+      },
+      "description": {
+        "tr": "Veli, öğrenci ve mezun yorumları; kulüpler (kurgusal).",
+        "en": "Parent, student and alumni reviews; clubs (fictional).",
+        "ar": "تعليقات أولياء الأمور والطلاب والخريجين؛ الأندية (افتراضية)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "x212w6",
+          "tq21zf"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "vbvfp2yrc3",
+      "name": {
+        "tr": "Kayıt",
+        "en": "Admissions",
+        "ar": "التسجيل"
+      },
+      "description": {
+        "tr": "Kontenjan ve akademik takvim.",
+        "en": "Places and academic calendar.",
+        "ar": "المقاعد والتقويم الأكاديمي."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "cpxycm",
+          "q2wwun"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 6,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "cpxycm",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon ve çalışma saatleri.",
+        "en": "Address, phone and opening hours.",
+        "ar": "العنوان والهاتف وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}

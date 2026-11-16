@@ -1,0 +1,3698 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "k8db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
+        },
+        "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "k8mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "k8hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Emlak",
+          "en": "Real estate",
+          "ar": "عقارات"
+        },
+        "title": {
+          "tr": "Hayalinizdeki yeri birlikte bulalım",
+          "en": "Let's find your dream home together",
+          "ar": "لنجد معًا المكان الذي تحلم به"
+        },
+        "description": {
+          "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
+          "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+        },
+        "btn1Text": {
+          "tr": "İlanları gör",
+          "en": "Browse listings",
+          "ar": "تصفح الإعلانات"
+        },
+        "btn1Url": "ilanlar",
+        "btn2Text": {
+          "tr": "Değerleme",
+          "en": "Valuation",
+          "ar": "التقييم"
+        },
+        "btn2Url": "iletisim"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "k8st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Completed Projects",
+            "ar": "مشروع منجز"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Happy Customers",
+            "ar": "عميل سعيد"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllık Deneyim",
+            "en": "Years of Experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Ekip 1",
+      "path": "team-1",
+      "local": "body",
+      "category": "team",
+      "id": "k8tm01",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "badge": {
+          "tr": "Ekip",
+          "en": "Team",
+          "ar": "الفريق"
+        },
+        "title": {
+          "tr": "Danışmanlarımız",
+          "en": "Our advisors",
+          "ar": "مستشارونا"
+        },
+        "description": {
+          "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
+          "en": "Our experienced team is here to add value to your projects.",
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+        },
+        "accentText": "#ffffff"
+      },
+      "version": "1.0.0",
+      "icon": "groups",
+      "data": [
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Kurucu / CEO",
+            "en": "Founder / CEO",
+            "ar": "المؤسس / الرئيس التنفيذي"
+          },
+          "bio": {
+            "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
+            "en": "Strategy and management with 10+ years of industry experience.",
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Tasarım Direktörü",
+            "en": "Design Director",
+            "ar": "مدير التصميم"
+          },
+          "bio": {
+            "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
+            "en": "Brand identity and user experience design.",
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+          },
+          "img": ""
+        },
+        {
+          "name": "Ad Soyad",
+          "role": {
+            "tr": "Yazılım Geliştirici",
+            "en": "Software Developer",
+            "ar": "مطوّر برمجيات"
+          },
+          "bio": {
+            "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
+            "en": "Scalable solutions with modern web technologies.",
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+          },
+          "img": ""
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "k8ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 6
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "k8ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 7
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "k8mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px 0px 0px 0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 8
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "k8in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 9
+    },
+    {
+      "name": "İlan Filtre (Emlak İlan Listesi)",
+      "path": "ilan-filtre",
+      "local": "body",
+      "category": "page-list",
+      "id": "k8il02",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "pageSize": 6,
+        "sort": "date",
+        "urlState": true,
+        "title": {
+          "tr": "Emlak İlanları",
+          "en": "Property Listings",
+          "ar": "إعلانات العقارات"
+        },
+        "subtitle": {
+          "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
+          "en": "Filter, sort and compare properties for sale and for rent.",
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+        },
+        "searchLabel": {
+          "tr": "İlan ara",
+          "en": "Search listings",
+          "ar": "ابحث في الإعلانات"
+        },
+        "searchPlaceholder": {
+          "tr": "Semt veya ilan başlığı…",
+          "en": "District or listing title…",
+          "ar": "الحي أو عنوان الإعلان…"
+        },
+        "dealGroupLabel": {
+          "tr": "İşlem türü",
+          "en": "Deal type",
+          "ar": "نوع الصفقة"
+        },
+        "dealAll": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "dealSale": {
+          "tr": "Satılık",
+          "en": "For sale",
+          "ar": "للبيع"
+        },
+        "dealRent": {
+          "tr": "Kiralık",
+          "en": "For rent",
+          "ar": "للإيجار"
+        },
+        "filtersTitle": {
+          "tr": "Filtreler",
+          "en": "Filters",
+          "ar": "التصفية"
+        },
+        "typeTitle": {
+          "tr": "Emlak türü",
+          "en": "Property type",
+          "ar": "نوع العقار"
+        },
+        "roomsTitle": {
+          "tr": "Oda sayısı",
+          "en": "Rooms",
+          "ar": "عدد الغرف"
+        },
+        "m2Title": {
+          "tr": "Alan (m²)",
+          "en": "Area (m²)",
+          "ar": "المساحة (م²)"
+        },
+        "priceTitle": {
+          "tr": "Fiyat",
+          "en": "Price",
+          "ar": "السعر"
+        },
+        "districtTitle": {
+          "tr": "Semt",
+          "en": "District",
+          "ar": "الحي"
+        },
+        "districtAll": {
+          "tr": "Tüm semtler",
+          "en": "All districts",
+          "ar": "كل الأحياء"
+        },
+        "minLabel": {
+          "tr": "En az",
+          "en": "Min",
+          "ar": "الحد الأدنى"
+        },
+        "maxLabel": {
+          "tr": "En çok",
+          "en": "Max",
+          "ar": "الحد الأقصى"
+        },
+        "m2Unit": {
+          "tr": "m²",
+          "en": "m²",
+          "ar": "م²"
+        },
+        "sortLabel": {
+          "tr": "Sırala",
+          "en": "Sort by",
+          "ar": "ترتيب حسب"
+        },
+        "sortDate": {
+          "tr": "En yeni",
+          "en": "Newest",
+          "ar": "الأحدث"
+        },
+        "sortPrice": {
+          "tr": "Fiyat: düşükten yükseğe",
+          "en": "Price: low to high",
+          "ar": "السعر: من الأقل إلى الأعلى"
+        },
+        "sortPriceDesc": {
+          "tr": "Fiyat: yüksekten düşüğe",
+          "en": "Price: high to low",
+          "ar": "السعر: من الأعلى إلى الأقل"
+        },
+        "sortM2": {
+          "tr": "Alan: büyükten küçüğe",
+          "en": "Area: large to small",
+          "ar": "المساحة: من الأكبر إلى الأصغر"
+        },
+        "sortM2Asc": {
+          "tr": "Alan: küçükten büyüğe",
+          "en": "Area: small to large",
+          "ar": "المساحة: من الأصغر إلى الأكبر"
+        },
+        "resetFilters": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "resultCount": {
+          "tr": {
+            "one": "{n} ilan bulundu",
+            "other": "{n} ilan bulundu"
+          },
+          "en": {
+            "one": "{n} listing found",
+            "other": "{n} listings found"
+          },
+          "ar": {
+            "zero": "لم يتم العثور على إعلانات",
+            "one": "تم العثور على إعلان واحد",
+            "two": "تم العثور على إعلانين",
+            "few": "تم العثور على {n} إعلانات",
+            "many": "تم العثور على {n} إعلانًا",
+            "other": "تم العثور على {n} إعلان"
+          }
+        },
+        "photoCount": {
+          "tr": {
+            "one": "{n} fotoğraf",
+            "other": "{n} fotoğraf"
+          },
+          "en": {
+            "one": "{n} photo",
+            "other": "{n} photos"
+          },
+          "ar": {
+            "one": "صورة واحدة",
+            "two": "صورتان",
+            "few": "{n} صور",
+            "many": "{n} صورة",
+            "other": "{n} صورة"
+          }
+        },
+        "noResultTitle": {
+          "tr": "Sonuç bulunamadı",
+          "en": "No results found",
+          "ar": "لم يتم العثور على نتائج"
+        },
+        "noResultText": {
+          "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
+          "en": "Try loosening or clearing your filters.",
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+        },
+        "pagesLabel": {
+          "tr": "Sayfalama",
+          "en": "Pagination",
+          "ar": "التنقل بين الصفحات"
+        },
+        "prevPage": {
+          "tr": "Önceki sayfa",
+          "en": "Previous page",
+          "ar": "الصفحة السابقة"
+        },
+        "nextPage": {
+          "tr": "Sonraki sayfa",
+          "en": "Next page",
+          "ar": "الصفحة التالية"
+        },
+        "pageN": {
+          "tr": "Sayfa {n}",
+          "en": "Page {n}",
+          "ar": "الصفحة {n}"
+        },
+        "permitLabel": {
+          "tr": "Yetki belgesi no",
+          "en": "Authorization certificate no.",
+          "ar": "رقم شهادة التفويض"
+        },
+        "permitDemo": {
+          "tr": "Yetki belgesi no: örnek ilan (DEMO)",
+          "en": "Authorization no.: sample listing (DEMO)",
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+        },
+        "perMonth": {
+          "tr": "/ ay",
+          "en": "/ month",
+          "ar": "/ شهريًا"
+        },
+        "details": {
+          "tr": "İlan detayı",
+          "en": "View listing",
+          "ar": "تفاصيل الإعلان"
+        },
+        "dateLabel": {
+          "tr": "İlan tarihi",
+          "en": "Listed on",
+          "ar": "تاريخ الإعلان"
+        },
+        "demoNote": {
+          "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
+          "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+        }
+      },
+      "version": "1.0.0",
+      "icon": "real_estate_agent",
+      "data": {
+        "facets": [
+          "type",
+          "rooms",
+          "m2",
+          "price",
+          "district"
+        ],
+        "typeLabels": {
+          "daire": {
+            "tr": "Daire",
+            "en": "Apartment",
+            "ar": "شقة"
+          },
+          "villa": {
+            "tr": "Villa",
+            "en": "Villa",
+            "ar": "فيلا"
+          },
+          "rezidans": {
+            "tr": "Rezidans",
+            "en": "Residence",
+            "ar": "مجمّع سكني"
+          },
+          "arsa": {
+            "tr": "Arsa",
+            "en": "Land",
+            "ar": "أرض"
+          },
+          "isyeri": {
+            "tr": "İşyeri",
+            "en": "Commercial",
+            "ar": "محل تجاري"
+          }
+        },
+        "listings": [
+          {
+            "id": "ilan-001",
+            "title": {
+              "tr": "Deniz manzaralı 3+1 daire",
+              "en": "3+1 apartment with sea view",
+              "ar": "شقة 3+1 بإطلالة بحرية"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "3+1",
+            "m2": 142,
+            "price": 6850000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Kadıköy",
+              "en": "Kadikoy",
+              "ar": "قاضي كوي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0001",
+            "url": "",
+            "date": "2026-10-24",
+            "badge": {
+              "tr": "Yeni",
+              "en": "New",
+              "ar": "جديد"
+            }
+          },
+          {
+            "id": "ilan-002",
+            "title": {
+              "tr": "Bahçe katı 2+1 kiralık daire",
+              "en": "2+1 garden-floor apartment for rent",
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 95,
+            "price": 38000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Ankara",
+              "en": "Ankara",
+              "ar": "أنقرة"
+            },
+            "district": {
+              "tr": "Çankaya",
+              "en": "Cankaya",
+              "ar": "تشانكايا"
+            },
+            "img": [],
+            "permitNo": "DEMO-06-0002",
+            "url": "",
+            "date": "2026-10-22"
+          },
+          {
+            "id": "ilan-003",
+            "title": {
+              "tr": "Havuzlu müstakil villa",
+              "en": "Detached villa with pool",
+              "ar": "فيلا مستقلة مع مسبح"
+            },
+            "deal": "sale",
+            "type": "villa",
+            "rooms": "5+2",
+            "m2": 320,
+            "price": 18900000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Muğla",
+              "en": "Mugla",
+              "ar": "موغلا"
+            },
+            "district": {
+              "tr": "Bodrum",
+              "en": "Bodrum",
+              "ar": "بودروم"
+            },
+            "img": [],
+            "permitNo": "DEMO-48-0003",
+            "url": "",
+            "date": "2026-10-18"
+          },
+          {
+            "id": "ilan-004",
+            "title": {
+              "tr": "Eşyalı 1+1 kiralık daire",
+              "en": "Furnished 1+1 apartment for rent",
+              "ar": "شقة 1+1 مفروشة للإيجار"
+            },
+            "deal": "rent",
+            "type": "daire",
+            "rooms": "1+1",
+            "m2": 55,
+            "price": 22500,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Karşıyaka",
+              "en": "Karsiyaka",
+              "ar": "قارشيياكا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0004",
+            "url": "",
+            "date": "2026-10-15"
+          },
+          {
+            "id": "ilan-005",
+            "title": {
+              "tr": "İmarlı satılık arsa",
+              "en": "Zoned plot for sale",
+              "ar": "أرض مخططة للبيع"
+            },
+            "deal": "sale",
+            "type": "arsa",
+            "rooms": "",
+            "m2": 600,
+            "price": 3200000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İzmir",
+              "en": "Izmir",
+              "ar": "إزمير"
+            },
+            "district": {
+              "tr": "Urla",
+              "en": "Urla",
+              "ar": "أورلا"
+            },
+            "img": [],
+            "permitNo": "DEMO-35-0005",
+            "url": "",
+            "date": "2026-10-11"
+          },
+          {
+            "id": "ilan-006",
+            "title": {
+              "tr": "Cadde üstü kiralık dükkân",
+              "en": "Street-front shop for rent",
+              "ar": "محل على الشارع الرئيسي للإيجار"
+            },
+            "deal": "rent",
+            "type": "isyeri",
+            "rooms": "",
+            "m2": 120,
+            "price": 65000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Şişli",
+              "en": "Sisli",
+              "ar": "شيشلي"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0006",
+            "url": "",
+            "date": "2026-10-08"
+          },
+          {
+            "id": "ilan-007",
+            "title": {
+              "tr": "Site içinde 2+1 daire",
+              "en": "2+1 apartment in a gated complex",
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+            },
+            "deal": "sale",
+            "type": "daire",
+            "rooms": "2+1",
+            "m2": 100,
+            "price": 4150000,
+            "currency": "TRY",
+            "city": {
+              "tr": "Bursa",
+              "en": "Bursa",
+              "ar": "بورصة"
+            },
+            "district": {
+              "tr": "Nilüfer",
+              "en": "Nilufer",
+              "ar": "نيلوفر"
+            },
+            "img": [],
+            "permitNo": "DEMO-16-0007",
+            "url": "",
+            "date": "2026-10-05"
+          },
+          {
+            "id": "ilan-008",
+            "title": {
+              "tr": "Merkezi konumda 1+1 rezidans",
+              "en": "1+1 residence in a central location",
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+            },
+            "deal": "sale",
+            "type": "rezidans",
+            "rooms": "1+1",
+            "m2": 70,
+            "price": 5300000,
+            "currency": "TRY",
+            "city": {
+              "tr": "İstanbul",
+              "en": "Istanbul",
+              "ar": "إسطنبول"
+            },
+            "district": {
+              "tr": "Beşiktaş",
+              "en": "Besiktas",
+              "ar": "بشيكتاش"
+            },
+            "img": [],
+            "permitNo": "DEMO-34-0008",
+            "url": "",
+            "date": "2026-10-02"
+          }
+        ]
+      },
+      "index": 10
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#kolej-2",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "0tesbe",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Menü 2",
+      "desing": {
+        "logo": "{{logo}}",
+        "color": "#16241F",
+        "max": "1200px",
+        "height": "64px",
+        "button": "var(--mx-site-primary, #2563eb)",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "44px",
+        "cta": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "cta_url": "teklif-al"
+      },
+      "category": "menu",
+      "description": "Responsive web sitesi navigasyon menüsü. Logo, sayfa linkleri ve mobil uyumlu hamburger menü içerir.  web sitelerinde 1 projede kullanılır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "tcarl4",
+      "path": "menu-5",
+      "local": "header",
+      "data": [],
+      "index": 12
+    },
+    {
+      "name": "Fuar Geri Sayım — canlı gün/saat/dk/sn sayacı + bilet koçanı",
+      "description": "Koyu sahnede ortalı etiket, h1 ve metin; altında dört dev sayaç kutusu (gün · saat · dakika · saniye — birim adları sayfa dilinde Intl'den, rakamlar canlı); en altta bilet biçimli kart: görsel koçanı, tarih/saat (<time>), yer (harita bağlantısı) ve rozet, delikli kopma çizgisinin ötesinde bilet/CTA düğmeleri; altta öne çıkan maddeler. JS yokken sayaç gizli, tarih metni kalır; tarih geçince isteğe bağlı «bitti» metni. Hero ailesinde zaman bilgisi taşıyan modül yok; acilis-istatistik-serit sayıları sabit bant olarak gösterir, bu modülün sayıları her saniye değişen bir sayaçtır ve iskelet bilet koçanıdır (delikli ayrım, koçan görseli). Başlık h1, ilk görsel eager. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "timer",
+      "category": "hero",
+      "subCategory": "countdown",
+      "tags": [
+        "hero",
+        "countdown",
+        "event",
+        "ticket",
+        "live",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "2027–28 kayıt dönemi · Açık gün",
+          "en": "2027–28 admissions · Open day",
+          "ar": "التسجيل 2027–28 · اليوم المفتوح"
+        },
+        "baslik": "",
+        "metin": {
+          "tr": "Sınıfları, laboratuvarı ve kütüphaneyi görün; öğretmenlerle tanışın. Açık güne katılım ücretsizdir, ön kayıt önerilir.",
+          "en": "See the classrooms, laboratory and library; meet the teachers. The open day is free; pre-registration is recommended.",
+          "ar": "شاهد الفصول والمختبر والمكتبة وتعرّف إلى المعلمين. الحضور في اليوم المفتوح مجاني، ويُنصح بالتسجيل المسبق."
+        },
+        "img": "egitim-hero-okul.webp",
+        "img2": "",
+        "video": "",
+        "poster": "",
+        "alt": {
+          "tr": "Okul binası ve bahçesi",
+          "en": "The school building and grounds",
+          "ar": "مبنى المدرسة وساحتها"
+        },
+        "cta_ad": {
+          "tr": "Ön kayıt",
+          "en": "Pre-register",
+          "ar": "سجّل مسبقًا"
+        },
+        "cta_url": "teklif-al",
+        "cta2_ad": {
+          "tr": "Ders programı",
+          "en": "Timetable",
+          "ar": "الجدول الدراسي"
+        },
+        "cta2_url": "hizmetler",
+        "rozet_ikon": "school",
+        "rozet_deger": "5–12",
+        "rozet_metin": {
+          "tr": "sınıf",
+          "en": "grades",
+          "ar": "الصفوف"
+        },
+        "bg": "var(--mx-site-text, #111318)",
+        "text": "var(--mx-site-bg, #ffffff)",
+        "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+        "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+        "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+        "accentText": "var(--mx-site-text, #111318)",
+        "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+        "vurguText": "var(--mx-site-text, #111318)",
+        "etkinlik_tarih": "2027-01-16T10:00:00+03:00",
+        "etkinlik_yer": {
+          "tr": "Atlas Koleji kampüsü, Şehitkamil (kurgusal)",
+          "en": "Atlas College campus, Sehitkamil (fictional)",
+          "ar": "حرم كلية أطلس، شهيد كامل (افتراضي)"
+        },
+        "yer_url": "",
+        "bitti_metin": {
+          "tr": "Açık gün tamamlandı; ön kayıt için bize yazın.",
+          "en": "The open day is over; write to us to pre-register.",
+          "ar": "انتهى اليوم المفتوح؛ راسلنا للتسجيل المسبق."
+        },
+        "bgcolor": "var(--mx-site-text, #111318)",
+        "color": "var(--mx-site-bg, #ffffff)",
+        "yukseklik": 86,
+        "eyebrow": {
+          "tr": "2027–28 kayıt dönemi · Açık gün",
+          "en": "2027–28 admissions · Open day",
+          "ar": "التسجيل 2027–28 · اليوم المفتوح"
+        },
+        "title": {
+          "tr": "Kapılarımız 16 Ocak’ta açık",
+          "en": "Our doors open on 16 January",
+          "ar": "أبوابنا مفتوحة في 16 يناير"
+        },
+        "cta1": {
+          "tr": "Ön kayıt",
+          "en": "Pre-register",
+          "ar": "سجّل مسبقًا"
+        },
+        "cta1_url": "teklif-al",
+        "cta2": {
+          "tr": "Ders programı",
+          "en": "Timetable",
+          "ar": "الجدول الدراسي"
+        },
+        "scroll_label": {
+          "tr": "Aşağı kaydır",
+          "en": "Scroll down",
+          "ar": "انزل للأسفل"
+        }
+      },
+      "data": [
+        {
+          "ikon": "science",
+          "metin": {
+            "tr": "Laboratuvar ve kütüphane gezisi",
+            "en": "Lab and library tour",
+            "ar": "جولة في المختبر والمكتبة"
+          }
+        },
+        {
+          "ikon": "record_voice_over",
+          "metin": {
+            "tr": "Öğretmenlerle tanışma",
+            "en": "Meet the teachers",
+            "ar": "لقاء المعلمين"
+          }
+        },
+        {
+          "ikon": "restaurant",
+          "metin": {
+            "tr": "Okul yemeğini tadın",
+            "en": "Taste the school lunch",
+            "ar": "تذوّق وجبة المدرسة"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "deger": "sayı/değer (ör. 1.200+, dil sözlüğü olabilir)",
+          "metin": "madde metni (dil sözlüğü)",
+          "img": "madde görseli (mozaik yerleşimlerde)",
+          "url": "madde bağlantısı"
+        }
+      },
+      "id": "f5usbl",
+      "path": "fuar-geri-sayim",
+      "local": "body",
+      "index": 13
+    },
+    {
+      "name": "Sayaç Dönem Kıyas — iki dönemli karne tablosu + dönem düğmesi",
+      "description": "Rakamlar bir karne tablosunda: gösterge (ikon, etiket, not, oran çubuğu) | önceki dönem | güncel dönem | Δ değişim rozeti. Dönem düğmesi (önceki ↔ güncel) çubukları ve sütun vurgusunu çevirir. Satırda `onceki` (önceki dönem sayısı) ve desing `donem_a` / `donem_b` (dil sözlüğü) verilirse kıyas açılır; yoksa tek sütunlu karne. sayac-cubuk ve sayac-sutun-grafik tek anlık değeri çizer; bu modül iki dönemi yan yana karşılaştıran semantik bir <table> iskeletidir (Δ sütunu + dönem geçişi) — ailede tablo ve zaman kıyası kuran ilk modül (kolej «yıllar arası başarı» dili). Sayılar sayfa diliyle biçimlenir (Intl), metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "compare_arrows",
+      "category": "stats",
+      "subCategory": "period-compare",
+      "tags": [
+        "stats",
+        "table",
+        "compare",
+        "period",
+        "toggle",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Okul karnesi",
+          "en": "School report card",
+          "ar": "بطاقة المدرسة"
+        },
+        "baslik": {
+          "tr": "Geçen yıl ve bu yıl",
+          "en": "Last year and this year",
+          "ar": "العام الماضي وهذا العام"
+        },
+        "metin": {
+          "tr": "Okul işleyişine dair kurgusal demo verileri; sınav başarısı rakamı içermez.",
+          "en": "Fictional demo figures on how the school runs; no exam results are included.",
+          "ar": "بيانات تجريبية افتراضية عن سير المدرسة؛ لا تتضمن نتائج امتحانات."
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "donem_a": {
+          "tr": "2025–26",
+          "en": "2025–26",
+          "ar": "2025–26"
+        },
+        "donem_b": {
+          "tr": "2026–27",
+          "en": "2026–27",
+          "ar": "2026–27"
+        },
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "title": {
+          "tr": "Dört sahnede Atlas",
+          "en": "Atlas in four scenes",
+          "ar": "أطلس في أربعة مشاهد"
+        },
+        "description": {
+          "tr": "Kurgusal demo verileri.",
+          "en": "Fictional demo figures.",
+          "ar": "بيانات تجريبية افتراضية."
+        }
+      },
+      "data": [
+        {
+          "sayi": 12,
+          "onceki": 9,
+          "etiket": {
+            "tr": "Okul kulübü",
+            "en": "School clubs",
+            "ar": "نادٍ مدرسي"
+          },
+          "metin": {
+            "tr": "Robotik, satranç, tiyatro ve diğerleri.",
+            "en": "Robotics, chess, drama and more.",
+            "ar": "الروبوتات والشطرنج والمسرح وغيرها."
+          },
+          "ikon": "groups",
+          "max": 15
+        },
+        {
+          "sayi": 6,
+          "onceki": 4,
+          "etiket": {
+            "tr": "Haftalık laboratuvar (saat)",
+            "en": "Weekly lab time (hours)",
+            "ar": "وقت المختبر أسبوعيًا (ساعات)"
+          },
+          "metin": {
+            "tr": "Sınıf başına ortalama.",
+            "en": "Average per class.",
+            "ar": "المتوسط لكل فصل."
+          },
+          "ikon": "science",
+          "max": 8
+        },
+        {
+          "sayi": 20,
+          "onceki": 22,
+          "etiket": {
+            "tr": "Ortalama sınıf mevcudu",
+            "en": "Average class size",
+            "ar": "متوسط عدد الطلاب في الفصل"
+          },
+          "metin": {
+            "tr": "Daha küçük sınıf hedefi.",
+            "en": "Aiming for smaller classes.",
+            "ar": "نسعى إلى فصول أصغر."
+          },
+          "ikon": "chair",
+          "max": 24
+        },
+        {
+          "sayi": 4200,
+          "onceki": 3100,
+          "etiket": {
+            "tr": "Kütüphaneden ödünç kitap",
+            "en": "Library loans",
+            "ar": "إعارات المكتبة"
+          },
+          "metin": {
+            "tr": "Ders yılı boyunca.",
+            "en": "Over the school year.",
+            "ar": "خلال العام الدراسي."
+          },
+          "ikon": "menu_book"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "sayi": "sayı (zorunlu; 1200 · \"4.9\")",
+          "onek": "önek (dil sözlüğü; ör. «%»)",
+          "sonek": "sonek (dil sözlüğü; ör. «+», «/5»)",
+          "etiket": "etiket (dil sözlüğü, zorunlu)",
+          "metin": "kısa not (dil sözlüğü)",
+          "ikon": "Material Symbols adı",
+          "ondalik": "ondalık basamak (yoksa sayıdan)",
+          "max": "oran tavanı (halka/çubuk/dolgu; yoksa % → 100, değilse listedeki en büyük)"
+        }
+      },
+      "id": "zw1it2",
+      "path": "sayac-donem-kiyas",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Değer Felsefe Sahnesi — bölüm menülü yatay tam genişlik sahneler",
+      "description": "Her değer tam genişlikte bir «sahne» (dev bölüm numarası ya da görsel + başlık ve açıklama); sahneler yatay kaydırılır, üstteki bölüm çipleri çapa menüsüdür ve ilerleme çubuğu kaçıncı sahnede olunduğunu gösterir. JS yoksa sahneler alt alta. deger-ray kart rayıdır (önceki/sonraki ok, birden çok kart görünür); bu modülde her seferinde tek bir tam genişlik sahne görünür, gezinme bölüm çipleri + ilerleme çubuğuyla (T: tek sayfa anlatı) olur. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "theaters",
+      "category": "values",
+      "subCategory": "horizontal-scenes",
+      "tags": [
+        "values",
+        "scenes",
+        "horizontal",
+        "chapters",
+        "progress",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Okul felsefesi",
+          "en": "Our philosophy",
+          "ar": "فلسفتنا"
+        },
+        "baslik": {
+          "tr": "Dört sahnede Atlas",
+          "en": "Atlas in four scenes",
+          "ar": "أطلس في أربعة مشاهد"
+        },
+        "metin": {
+          "tr": "Bölüm çiplerine dokunun ya da kaydırın. Görseller temsilîdir.",
+          "en": "Tap the chapter chips or swipe. Images are representative.",
+          "ar": "المس شرائح الفصول أو اسحب. الصور تمثيلية."
+        },
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Okul felsefesi",
+          "en": "Our philosophy",
+          "ar": "فلسفتنا"
+        },
+        "title": {
+          "tr": "Dört sahnede Atlas",
+          "en": "Atlas in four scenes",
+          "ar": "أطلس في أربعة مشاهد"
+        },
+        "description": {
+          "tr": "Bölüm çiplerine dokunun ya da kaydırın.",
+          "en": "Tap the chapter chips or swipe.",
+          "ar": "المس شرائح الفصول أو اسحب."
+        }
+      },
+      "data": [
+        {
+          "etiket": {
+            "tr": "Bölüm 1",
+            "en": "Chapter 1",
+            "ar": "الفصل 1"
+          },
+          "ikon": "science",
+          "baslik": {
+            "tr": "Merak",
+            "en": "Curiosity",
+            "ar": "الفضول"
+          },
+          "metin": {
+            "tr": "Her sınıf haftada en az bir saat laboratuvarda; soru sormak not almaktan önce gelir.",
+            "en": "Every class spends at least an hour a week in the lab; asking comes before note-taking.",
+            "ar": "يقضي كل فصل ساعة أسبوعيًا على الأقل في المختبر؛ السؤال قبل تدوين الملاحظات."
+          },
+          "img": "/img/egitim-laboratuvar.webp"
+        },
+        {
+          "etiket": {
+            "tr": "Bölüm 2",
+            "en": "Chapter 2",
+            "ar": "الفصل 2"
+          },
+          "ikon": "menu_book",
+          "baslik": {
+            "tr": "Okuma",
+            "en": "Reading",
+            "ar": "القراءة"
+          },
+          "metin": {
+            "tr": "Her sabah yirmi dakika sessiz okuma; kütüphane öğle arasında da açık.",
+            "en": "Twenty minutes of quiet reading every morning; the library is open at lunch too.",
+            "ar": "عشرون دقيقة من القراءة الهادئة كل صباح، والمكتبة مفتوحة وقت الغداء أيضًا."
+          },
+          "img": "/img/egitim-kutuphane.webp"
+        },
+        {
+          "etiket": {
+            "tr": "Bölüm 3",
+            "en": "Chapter 3",
+            "ar": "الفصل 3"
+          },
+          "ikon": "park",
+          "baslik": {
+            "tr": "Doğa",
+            "en": "Nature",
+            "ar": "الطبيعة"
+          },
+          "metin": {
+            "tr": "Bahçe dersleri ve okul bostanı; mevsimi sınıfta değil toprakta öğreniriz.",
+            "en": "Garden lessons and a school plot; we learn the seasons in the soil, not only in class.",
+            "ar": "دروس الحديقة ومزرعة المدرسة؛ نتعلّم الفصول في التربة لا في الصف فقط."
+          },
+          "img": "/img/egitim-bahce.webp"
+        },
+        {
+          "etiket": {
+            "tr": "Bölüm 4",
+            "en": "Chapter 4",
+            "ar": "الفصل 4"
+          },
+          "ikon": "groups",
+          "baslik": {
+            "tr": "Birlikte",
+            "en": "Together",
+            "ar": "معًا"
+          },
+          "metin": {
+            "tr": "Ortak sofra, kulüpler ve proje haftaları; sınıflar karışarak çalışır.",
+            "en": "A shared table, clubs and project weeks; classes mix and work together.",
+            "ar": "مائدة مشتركة وأندية وأسابيع مشاريع؛ تختلط الفصول وتعمل معًا."
+          },
+          "img": "/img/egitim-yemekhane.webp"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ikon": "Material Symbols adı",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "etiket": "dil sözlüğü (küçük üst etiket)",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı (kartın tamamı tıklanır)"
+        }
+      },
+      "id": "372a9m",
+      "path": "deger-felsefe-sahne",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Zaman Akademik Takvim — ay şeridi, bugün işareti, kalan gün ve tür süzgeci",
+      "description": "Eğitim yılı takvimi: üstte ay şeridi (her ayda olay noktaları, bugünün ayında dikey işaret ve tarih), yanında sıradaki olaya kalan gün sayacı (sayfa dilinde Intl), kayıt/sınav/tatil gibi tür çipleriyle çoklu süzme; altta olaylar ay ay gruplanmış satırlar (gün, hafta günü, tür, tarih aralığı). Geçmiş olaylar soluk, süren olay vurgulu. JS yokken tüm olaylar ay ay tam liste. zaman-takvim-yaprak yalnız yıl yazan statik kâğıt kartlardır, zaman-sekme-yil bir yıl paneli seçtirir, hafta-zaman-cizelgesi hafta numarası pistidir; bu modül gerçek tarihlerle çalışır (ISO gün → ay şeridi, bugün işareti, kalan gün sayacı) ve olay türüne göre süzer — tarihçe değil ileriye dönük takvim. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "event_note",
+      "category": "timeline",
+      "subCategory": "academic-calendar",
+      "tags": [
+        "timeline",
+        "calendar",
+        "months",
+        "countdown",
+        "filter",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "yaklasanAd": {
+          "tr": "Sıradaki",
+          "en": "Up next",
+          "ar": "التالي"
+        },
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Akademik takvim",
+          "en": "Academic calendar",
+          "ar": "التقويم الأكاديمي"
+        },
+        "title": {
+          "tr": "2026–27 ders yılı",
+          "en": "The 2026–27 school year",
+          "ar": "العام الدراسي 2026–27"
+        },
+        "description": {
+          "tr": "Türe göre süzün. Tarihler kurgusaldır.",
+          "en": "Filter by type. Dates are fictional.",
+          "ar": "صفِّ حسب النوع. التواريخ افتراضية."
+        }
+      },
+      "data": [
+        {
+          "year": "2026-09-14",
+          "title": {
+            "tr": "Ders yılı başladı",
+            "en": "School year began",
+            "ar": "بدء العام الدراسي"
+          },
+          "text": {
+            "tr": "Uyum haftası ve tanışma.",
+            "en": "Orientation week.",
+            "ar": "أسبوع التعارف والتكيّف."
+          },
+          "tur": {
+            "tr": "Ders",
+            "en": "Lessons",
+            "ar": "الدروس"
+          }
+        },
+        {
+          "year": "2026-11-09",
+          "bitis": "2026-11-13",
+          "title": {
+            "tr": "Birinci ara tatil",
+            "en": "First mid-term break",
+            "ar": "العطلة الفصلية الأولى"
+          },
+          "text": {
+            "tr": "Kulüp atölyeleri açık.",
+            "en": "Club workshops stay open.",
+            "ar": "تبقى ورش الأندية مفتوحة."
+          },
+          "tur": {
+            "tr": "Tatil",
+            "en": "Holiday",
+            "ar": "عطلة"
+          }
+        },
+        {
+          "year": "2026-12-12",
+          "title": {
+            "tr": "Bilim şenliği",
+            "en": "Science fair",
+            "ar": "معرض العلوم"
+          },
+          "text": {
+            "tr": "Öğrenci projeleri sergisi.",
+            "en": "An exhibition of student projects.",
+            "ar": "معرض لمشاريع الطلاب."
+          },
+          "tur": {
+            "tr": "Etkinlik",
+            "en": "Event",
+            "ar": "فعالية"
+          }
+        },
+        {
+          "year": "2027-01-16",
+          "title": {
+            "tr": "Açık gün",
+            "en": "Open day",
+            "ar": "اليوم المفتوح"
+          },
+          "text": {
+            "tr": "2027–28 kayıt dönemi için okul gezisi.",
+            "en": "School tours for the 2027–28 admissions.",
+            "ar": "جولات مدرسية لتسجيل 2027–28."
+          },
+          "tur": {
+            "tr": "Kayıt",
+            "en": "Admissions",
+            "ar": "التسجيل"
+          }
+        },
+        {
+          "year": "2027-01-25",
+          "bitis": "2027-02-05",
+          "title": {
+            "tr": "Yarıyıl tatili",
+            "en": "Semester break",
+            "ar": "عطلة منتصف العام"
+          },
+          "text": {
+            "tr": "Karne günü 22 Ocak.",
+            "en": "Report day is 22 January.",
+            "ar": "يوم الشهادات في 22 يناير."
+          },
+          "tur": {
+            "tr": "Tatil",
+            "en": "Holiday",
+            "ar": "عطلة"
+          }
+        },
+        {
+          "year": "2027-03-01",
+          "bitis": "2027-04-30",
+          "title": {
+            "tr": "Ön kayıt dönemi",
+            "en": "Pre-registration period",
+            "ar": "فترة التسجيل المسبق"
+          },
+          "text": {
+            "tr": "Veli görüşmeleri randevuyla.",
+            "en": "Parent meetings by appointment.",
+            "ar": "لقاءات أولياء الأمور بموعد."
+          },
+          "tur": {
+            "tr": "Kayıt",
+            "en": "Admissions",
+            "ar": "التسجيل"
+          }
+        },
+        {
+          "year": "2027-06-11",
+          "title": {
+            "tr": "Ders yılı sonu",
+            "en": "End of school year",
+            "ar": "نهاية العام الدراسي"
+          },
+          "text": {
+            "tr": "Yıl sonu gösterisi ve karne.",
+            "en": "End-of-year show and reports.",
+            "ar": "حفل نهاية العام والشهادات."
+          },
+          "tur": {
+            "tr": "Ders",
+            "en": "Lessons",
+            "ar": "الدروس"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "etiket": "yıl / tarih / dönem (dil sözlüğü ya da düz metin)",
+          "baslik": "dil sözlüğü (zorunlu)",
+          "metin": "dil sözlüğü",
+          "ikon": "Material Symbols adı",
+          "img": "görsel yolu (destekleyen yerleşimde)",
+          "url": "iç/dış bağlantı"
+        }
+      },
+      "id": "q2wwun",
+      "path": "zaman-akademik-takvim",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Ekip Branş Rafı — her branş kendi yatay rafında",
+      "description": "Kadro bölüm/branşa göre raflara ayrılır: her rafın başında branş adı ve kişi sayısı, kendi önceki/sonraki düğmeleri; kartlar raf tahtasına oturan küçük portrelerdir (ad, unvan). Bölüm yoksa tek raf. Taşmayan rafta düğmeler gizlenir. Çok satırlı, satır başına bağımsız kaydırma: ekip-portre-ray tek şerit, ekip-rehber gruplu ama sabit ızgara; burada her branş ayrı bir yatay raf (Netflix satırı) ve raf tahtası alt çizgisi — öğretmen kadrosu branş branş gezilir. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "shelves",
+      "category": "team",
+      "subCategory": "grouped-shelves",
+      "tags": [
+        "team",
+        "shelves",
+        "grouped",
+        "rail",
+        "teachers",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Öğretmenler",
+          "en": "Teachers",
+          "ar": "المعلمون"
+        },
+        "title": {
+          "tr": "Branş branş kadromuz",
+          "en": "Our staff, subject by subject",
+          "ar": "كادرنا حسب المادة"
+        },
+        "description": {
+          "tr": "Kurgusal profiller; fotoğraf yalnız rızayla kullanılır, burada baş harf rozeti.",
+          "en": "Fictional profiles; photos are used only with consent, so initials are shown here.",
+          "ar": "ملفات افتراضية؛ لا تُستخدم الصور إلا بموافقة، لذا تظهر الأحرف الأولى."
+        }
+      },
+      "data": [
+        {
+          "ad": "Elif K.",
+          "unvan": {
+            "tr": "Fen bilimleri öğretmeni",
+            "en": "Science teacher",
+            "ar": "معلمة العلوم"
+          },
+          "bolum": {
+            "tr": "Fen bilimleri",
+            "en": "Science",
+            "ar": "العلوم"
+          }
+        },
+        {
+          "ad": "Can E.",
+          "unvan": {
+            "tr": "Fizik öğretmeni",
+            "en": "Physics teacher",
+            "ar": "معلم الفيزياء"
+          },
+          "bolum": {
+            "tr": "Fen bilimleri",
+            "en": "Science",
+            "ar": "العلوم"
+          }
+        },
+        {
+          "ad": "Leyla S.",
+          "unvan": {
+            "tr": "Kimya öğretmeni",
+            "en": "Chemistry teacher",
+            "ar": "معلمة الكيمياء"
+          },
+          "bolum": {
+            "tr": "Fen bilimleri",
+            "en": "Science",
+            "ar": "العلوم"
+          }
+        },
+        {
+          "ad": "Murat A.",
+          "unvan": {
+            "tr": "Matematik öğretmeni",
+            "en": "Mathematics teacher",
+            "ar": "معلم الرياضيات"
+          },
+          "bolum": {
+            "tr": "Matematik",
+            "en": "Mathematics",
+            "ar": "الرياضيات"
+          }
+        },
+        {
+          "ad": "Ece N.",
+          "unvan": {
+            "tr": "Matematik öğretmeni",
+            "en": "Mathematics teacher",
+            "ar": "معلمة الرياضيات"
+          },
+          "bolum": {
+            "tr": "Matematik",
+            "en": "Mathematics",
+            "ar": "الرياضيات"
+          }
+        },
+        {
+          "ad": "Zehra T.",
+          "unvan": {
+            "tr": "İngilizce öğretmeni",
+            "en": "English teacher",
+            "ar": "معلمة الإنجليزية"
+          },
+          "bolum": {
+            "tr": "Diller",
+            "en": "Languages",
+            "ar": "اللغات"
+          }
+        },
+        {
+          "ad": "Selma R.",
+          "unvan": {
+            "tr": "Arapça öğretmeni",
+            "en": "Arabic teacher",
+            "ar": "معلمة العربية"
+          },
+          "bolum": {
+            "tr": "Diller",
+            "en": "Languages",
+            "ar": "اللغات"
+          }
+        },
+        {
+          "ad": "Hakan Ö.",
+          "unvan": {
+            "tr": "Türkçe öğretmeni",
+            "en": "Turkish teacher",
+            "ar": "معلم اللغة التركية"
+          },
+          "bolum": {
+            "tr": "Diller",
+            "en": "Languages",
+            "ar": "اللغات"
+          }
+        },
+        {
+          "ad": "Deniz Y.",
+          "unvan": {
+            "tr": "Görsel sanatlar öğretmeni",
+            "en": "Visual arts teacher",
+            "ar": "معلمة الفنون البصرية"
+          },
+          "bolum": {
+            "tr": "Sanat ve rehberlik",
+            "en": "Arts and guidance",
+            "ar": "الفنون والإرشاد"
+          }
+        },
+        {
+          "ad": "Ozan B.",
+          "unvan": {
+            "tr": "Müzik öğretmeni",
+            "en": "Music teacher",
+            "ar": "معلم الموسيقى"
+          },
+          "bolum": {
+            "tr": "Sanat ve rehberlik",
+            "en": "Arts and guidance",
+            "ar": "الفنون والإرشاد"
+          }
+        },
+        {
+          "ad": "Nazlı D.",
+          "unvan": {
+            "tr": "Rehber öğretmen",
+            "en": "Guidance teacher",
+            "ar": "معلمة الإرشاد"
+          },
+          "bolum": {
+            "tr": "Sanat ve rehberlik",
+            "en": "Arts and guidance",
+            "ar": "الفنون والإرشاد"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "ad soyad (zorunlu; düz metin ya da dil sözlüğü)",
+          "unvan": "görev / unvan (dil sözlüğü)",
+          "metin": "kısa tanıtım (dil sözlüğü)",
+          "img": "portre görseli (yoksa baş harfler)",
+          "bolum": "bölüm (dil sözlüğü ya da desing.departments id'si)",
+          "eposta": "e-posta (mailto)",
+          "telefon": "telefon (tel:)",
+          "url": "profil sayfası bağlantısı",
+          "social": "[{ ad, url (http(s)/mailto/tel), ikon (Material Symbols) }]"
+        }
+      },
+      "id": "m0l2b9",
+      "path": "ekip-brans-raf",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Yorum Rol Filtresi — veli · öğrenci · mezun gibi rollere göre süzülen yorumlar",
+      "description": "Yorumlar `unvan` alanındaki role göre (veli, öğrenci, mezun …) gruplanır: üstte sayılı rol çipleri (Tümü + roller) yorum kartlarını süzer; her kart dosya sekmesi biçiminde rol kulakçığı taşır. JS yoksa çipler gizli, tüm kartlar görünür. Kim konuşuyor sorusunu öne alır: yorum-sekme-kisi tek kişiyi seçer, burada aynı roldeki birden çok yorum birlikte süzülür (çoklu görünür kart); rol veri değerinden türetilir, kart sekme kulakçıklı klasör biçimi. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "filter_list",
+      "category": "testimonial",
+      "subCategory": "role-filter",
+      "tags": [
+        "testimonial",
+        "filter",
+        "roles",
+        "chips",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "yildiz": "color-mix(in srgb, var(--mx-color-warning, #d97706) 78%, var(--mx-site-text, #111318))",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Okul topluluğu",
+          "en": "School community",
+          "ar": "مجتمع المدرسة"
+        },
+        "title": {
+          "tr": "Veliler, öğrenciler, mezunlar",
+          "en": "Parents, students, alumni",
+          "ar": "أولياء الأمور والطلاب والخريجون"
+        },
+        "description": {
+          "tr": "Kurgusal yorumlar; adlar kısaltılmıştır.",
+          "en": "Fictional reviews; names are shortened.",
+          "ar": "تعليقات افتراضية؛ الأسماء مختصرة."
+        }
+      },
+      "data": [
+        {
+          "metin": {
+            "tr": "Açık günde laboratuvarı gördük; kızım ilk hafta deney defterini eve getirdi.",
+            "en": "We saw the lab on open day; in the first week my daughter brought her lab notebook home.",
+            "ar": "رأينا المختبر في اليوم المفتوح، وفي الأسبوع الأول أحضرت ابنتي دفتر التجارب إلى البيت."
+          },
+          "ad": "Aylin V.",
+          "unvan": {
+            "tr": "Veli",
+            "en": "Parent",
+            "ar": "ولي أمر"
+          },
+          "kaynak": {
+            "tr": "Kurgusal yorum",
+            "en": "Fictional review",
+            "ar": "تعليق افتراضي"
+          }
+        },
+        {
+          "metin": {
+            "tr": "Rehber öğretmenle iki haftada bir kısa görüşme yapıyoruz; ne olduğunu hep biliyoruz.",
+            "en": "We meet the guidance teacher briefly every two weeks; we always know what is happening.",
+            "ar": "نلتقي المعلمة المرشدة لقاءً قصيرًا كل أسبوعين؛ ونعرف دائمًا ما يجري."
+          },
+          "ad": "Serkan D.",
+          "unvan": {
+            "tr": "Veli",
+            "en": "Parent",
+            "ar": "ولي أمر"
+          },
+          "kaynak": {
+            "tr": "Kurgusal yorum",
+            "en": "Fictional review",
+            "ar": "تعليق افتراضي"
+          }
+        },
+        {
+          "metin": {
+            "tr": "Robotik kulübünde ilk robotumuzu yaptık, şimdi bilim şenliğine hazırlanıyoruz.",
+            "en": "We built our first robot in the robotics club; now we are preparing for the science fair.",
+            "ar": "صنعنا أول روبوت لنا في نادي الروبوتات، ونستعد الآن لمعرض العلوم."
+          },
+          "ad": "E. T.",
+          "unvan": {
+            "tr": "Öğrenci",
+            "en": "Student",
+            "ar": "طالب"
+          },
+          "kaynak": {
+            "tr": "Kurgusal yorum",
+            "en": "Fictional review",
+            "ar": "تعليق افتراضي"
+          }
+        },
+        {
+          "metin": {
+            "tr": "Sabah okuma saatini seviyorum; kütüphanede kendi rafımız var.",
+            "en": "I love the morning reading time; we have our own shelf in the library.",
+            "ar": "أحب وقت القراءة الصباحي، ولدينا رفّ خاص بنا في المكتبة."
+          },
+          "ad": "M. K.",
+          "unvan": {
+            "tr": "Öğrenci",
+            "en": "Student",
+            "ar": "طالب"
+          },
+          "kaynak": {
+            "tr": "Kurgusal yorum",
+            "en": "Fictional review",
+            "ar": "تعليق افتراضي"
+          }
+        },
+        {
+          "metin": {
+            "tr": "Bahçe derslerinde öğrendiğim sabır üniversitede de işime yaradı.",
+            "en": "The patience I learned in garden lessons helped me at university too.",
+            "ar": "الصبر الذي تعلّمته في دروس الحديقة نفعني في الجامعة أيضًا."
+          },
+          "ad": "Burcu A.",
+          "unvan": {
+            "tr": "Mezun",
+            "en": "Alumna",
+            "ar": "خريجة"
+          },
+          "kaynak": {
+            "tr": "Kurgusal yorum",
+            "en": "Fictional review",
+            "ar": "تعليق افتراضي"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "metin": "yorum metni — dil sözlüğü (zorunlu)",
+          "ad": "yorumu yapanın adı",
+          "unvan": "görev / unvan (dil sözlüğü)",
+          "firma": "firma adı",
+          "puan": "1–5 yıldız (0/boş → yıldız yok)",
+          "img": "avatar / portre görseli",
+          "logo": "firma logosu (destekleyen yerleşimde)",
+          "baslik": "yorum başlığı (destekleyen yerleşimde)",
+          "tarih": "tarih metni",
+          "kaynak": "kaynak (Google, Instagram …)"
+        }
+      },
+      "id": "x212w6",
+      "path": "yorum-rol-filtre",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Referans Vitrin Seçim — çiplerle seçilen tek referans sahnesi",
+      "description": "Üstte referans adı çipleri, altta seçilen referansın büyük sahnesi: dev logo/yazı logosu, sektör ve yıl, görüş metni, görüş sahibi ve bağlantı. JS yoksa tüm sahneler alt alta. Aynı anda tek müşteri anlatılır (seçim etkileşimi); her referansa vaka sunumu ağırlığı verir. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "highlight",
+      "category": "referans",
+      "subCategory": "spotlight-select",
+      "tags": [
+        "referans",
+        "spotlight",
+        "select",
+        "chips",
+        "case",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1100px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Kulüpler",
+          "en": "Clubs",
+          "ar": "الأندية"
+        },
+        "baslik": {
+          "tr": "Ders saatinden sonra",
+          "en": "After the bell",
+          "ar": "بعد الجرس"
+        },
+        "metin": {
+          "tr": "Bir kulüp seçin; danışman öğretmen ve yaş grubu görünsün. Kurgusal.",
+          "en": "Pick a club to see its advisor and age group. Fictional.",
+          "ar": "اختر ناديًا لترى المعلم المشرف والفئة العمرية. افتراضي."
+        },
+        "sayi": "",
+        "sayiEtiket": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "grayscale": true,
+        "title": {
+          "tr": "Birlikte çalıştığımız kuruluşlar",
+          "en": "Organisations we work with",
+          "ar": "جهات نعمل معها"
+        },
+        "description": {
+          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional partner names; they do not belong to a real organisation.",
+          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+        }
+      },
+      "data": [
+        {
+          "ad": {
+            "tr": "Robotik Kulübü",
+            "en": "Robotics Club",
+            "ar": "نادي الروبوتات"
+          },
+          "sektor": {
+            "tr": "Fen · 6–12. sınıf",
+            "en": "Science · grades 6–12",
+            "ar": "العلوم · الصفوف 6–12"
+          },
+          "yil": {
+            "tr": "Salı 15:30",
+            "en": "Tue 15:30",
+            "ar": "الثلاثاء 15:30"
+          },
+          "metin": {
+            "tr": "Basit devrelerden programlanabilir robotlara; yıl sonunda okul içi yarışma.",
+            "en": "From simple circuits to programmable robots; an in-school contest at year end.",
+            "ar": "من الدوائر البسيطة إلى الروبوتات القابلة للبرمجة؛ ومسابقة داخلية في نهاية العام."
+          },
+          "kisi": {
+            "tr": "Danışman: Can E.",
+            "en": "Advisor: Can E.",
+            "ar": "المشرف: جان إ."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Satranç Kulübü",
+            "en": "Chess Club",
+            "ar": "نادي الشطرنج"
+          },
+          "sektor": {
+            "tr": "Zekâ oyunları · 5–12. sınıf",
+            "en": "Strategy games · grades 5–12",
+            "ar": "ألعاب الذكاء · الصفوف 5–12"
+          },
+          "yil": {
+            "tr": "Çarşamba 15:30",
+            "en": "Wed 15:30",
+            "ar": "الأربعاء 15:30"
+          },
+          "metin": {
+            "tr": "Açılış dersleri, haftalık turnuva ve sınıflar arası lig.",
+            "en": "Opening lessons, a weekly tournament and an inter-class league.",
+            "ar": "دروس الافتتاحيات وبطولة أسبوعية ودوري بين الفصول."
+          },
+          "kisi": {
+            "tr": "Danışman: Ece N.",
+            "en": "Advisor: Ece N.",
+            "ar": "المشرفة: إجه ن."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Tiyatro Kulübü",
+            "en": "Drama Club",
+            "ar": "نادي المسرح"
+          },
+          "sektor": {
+            "tr": "Sanat · 7–12. sınıf",
+            "en": "Arts · grades 7–12",
+            "ar": "الفنون · الصفوف 7–12"
+          },
+          "yil": {
+            "tr": "Perşembe 15:30",
+            "en": "Thu 15:30",
+            "ar": "الخميس 15:30"
+          },
+          "metin": {
+            "tr": "Doğaçlama, metin okuma ve yıl sonu gösterisi.",
+            "en": "Improvisation, script reading and an end-of-year show.",
+            "ar": "الارتجال وقراءة النصوص وعرض نهاية العام."
+          },
+          "kisi": {
+            "tr": "Danışman: Deniz Y.",
+            "en": "Advisor: Deniz Y.",
+            "ar": "المشرفة: دنيز ي."
+          }
+        },
+        {
+          "ad": {
+            "tr": "Bostan Kulübü",
+            "en": "Garden Club",
+            "ar": "نادي الحديقة"
+          },
+          "sektor": {
+            "tr": "Doğa · 5–8. sınıf",
+            "en": "Nature · grades 5–8",
+            "ar": "الطبيعة · الصفوف 5–8"
+          },
+          "yil": {
+            "tr": "Cuma 14:30",
+            "en": "Fri 14:30",
+            "ar": "الجمعة 14:30"
+          },
+          "metin": {
+            "tr": "Tohumdan hasada okul bostanı; ürünler okul mutfağına.",
+            "en": "The school plot from seed to harvest; the produce goes to the school kitchen.",
+            "ar": "مزرعة المدرسة من البذرة إلى الحصاد، ويذهب المحصول إلى مطبخ المدرسة."
+          },
+          "kisi": {
+            "tr": "Danışman: Leyla S.",
+            "en": "Advisor: Leyla S.",
+            "ar": "المشرفة: ليلى س."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "ad": "marka / kurum adı (dil sözlüğü ya da düz metin; logo alt yazısı)",
+          "img": "logo görseli yolu (boşsa yazı logosu)",
+          "url": "iç/dış bağlantı (dış → yeni sekme)",
+          "sektor": "dil sözlüğü (sektör / iş alanı)",
+          "metin": "dil sözlüğü (kısa görüş / iş özeti)",
+          "kisi": "dil sözlüğü (görüş sahibi)",
+          "yil": "birlikte çalışma yılı (düz metin)"
+        }
+      },
+      "id": "tq21zf",
+      "path": "referans-vitrin-secim",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "SSS Terim Sözlüğü — terim çipleri ve sözlük maddeleri",
+      "description": "Üstte yapışkan terim çipleri (her terimin soru sayısıyla), altında sözlük maddeleri: solda italik serif terim ve sıra no, karşısında soru ve cevap. Terim = satırın `terim` alanı (dil sözlüğü), yoksa `kategori`. Çip seçilince o terimin maddeleri vurgulanır, diğerleri soluklaşır. sss-dizin numaralı soru dizini + kart, sss-kategori-blok yapışkan grup başlığı + akordeon kullanır; bu modül sözlük (dl) iskeleti — terim kelimesi maddenin başlığıdır, çip bulutu terimle süzer/vurgular (çapa yedekli), cevaplar hep açık. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Açılırlar yerel <details> (JS'siz). Veri yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "menu_book",
+      "category": "faq",
+      "subCategory": "glossary",
+      "tags": [
+        "faq",
+        "glossary",
+        "terms",
+        "chips",
+        "open",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "tekAcik": "",
+        "ilkAcik": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 68%, var(--mx-site-bg, #ffffff))",
+        "kartBg": "var(--mx-site-surface, #f6f7f9)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "color": "var(--mx-site-text, #111318)",
+        "badge": {
+          "tr": "Sözlük",
+          "en": "Glossary",
+          "ar": "المصطلحات"
+        },
+        "title": {
+          "tr": "Velinin sözlüğü",
+          "en": "The parent’s glossary",
+          "ar": "قاموس ولي الأمر"
+        },
+        "description": {
+          "tr": "Terime dokunun, ilgili sorular öne çıksın.",
+          "en": "Tap a term to highlight its questions.",
+          "ar": "المس المصطلح لتبرز أسئلته."
+        }
+      },
+      "data": [
+        {
+          "terim": {
+            "tr": "Ön kayıt",
+            "en": "Pre-registration",
+            "ar": "التسجيل المسبق"
+          },
+          "soru": {
+            "tr": "Ön kayıt nasıl yapılır?",
+            "en": "How does pre-registration work?",
+            "ar": "كيف يتم التسجيل المسبق؟"
+          },
+          "cevap": {
+            "tr": "WhatsApp ya da e-postayla görüşme günü alırsınız; görüşmede veli aydınlatma metni imzalanır.",
+            "en": "You book a meeting day by WhatsApp or e-mail; the parent privacy notice is signed at the meeting.",
+            "ar": "تحجز موعد اللقاء عبر واتساب أو البريد الإلكتروني، ويُوقَّع إشعار الخصوصية لولي الأمر في اللقاء."
+          },
+          "question": {
+            "tr": "Ön kayıt nasıl yapılır?",
+            "en": "How does pre-registration work?",
+            "ar": "كيف يتم التسجيل المسبق؟"
+          },
+          "answer": {
+            "tr": "WhatsApp ya da e-postayla görüşme günü alırsınız; görüşmede veli aydınlatma metni imzalanır.",
+            "en": "You book a meeting day by WhatsApp or e-mail; the parent privacy notice is signed at the meeting.",
+            "ar": "تحجز موعد اللقاء عبر واتساب أو البريد الإلكتروني، ويُوقَّع إشعار الخصوصية لولي الأمر في اللقاء."
+          }
+        },
+        {
+          "terim": {
+            "tr": "Ön kayıt",
+            "en": "Pre-registration",
+            "ar": "التسجيل المسبق"
+          },
+          "soru": {
+            "tr": "Ön kayıt kesin kayıt mıdır?",
+            "en": "Is pre-registration final enrolment?",
+            "ar": "هل التسجيل المسبق تسجيل نهائي؟"
+          },
+          "cevap": {
+            "tr": "Hayır; kesin kayıt, kontenjan ve görüşme sonrasında yapılır.",
+            "en": "No; final enrolment follows the meeting and depends on places.",
+            "ar": "لا؛ يتم التسجيل النهائي بعد اللقاء ووفق المقاعد المتاحة."
+          },
+          "question": {
+            "tr": "Ön kayıt kesin kayıt mıdır?",
+            "en": "Is pre-registration final enrolment?",
+            "ar": "هل التسجيل المسبق تسجيل نهائي؟"
+          },
+          "answer": {
+            "tr": "Hayır; kesin kayıt, kontenjan ve görüşme sonrasında yapılır.",
+            "en": "No; final enrolment follows the meeting and depends on places.",
+            "ar": "لا؛ يتم التسجيل النهائي بعد اللقاء ووفق المقاعد المتاحة."
+          }
+        },
+        {
+          "terim": {
+            "tr": "Rehberlik",
+            "en": "Guidance",
+            "ar": "الإرشاد"
+          },
+          "soru": {
+            "tr": "Rehber öğretmen ne yapar?",
+            "en": "What does the guidance teacher do?",
+            "ar": "ما دور المعلم المرشد؟"
+          },
+          "cevap": {
+            "tr": "Sınıfın uyumunu, ders çalışma alışkanlıklarını ve veliyle iletişimi izler.",
+            "en": "Follows the class’s wellbeing, study habits and contact with parents.",
+            "ar": "يتابع اندماج الفصل وعادات المذاكرة والتواصل مع أولياء الأمور."
+          },
+          "question": {
+            "tr": "Rehber öğretmen ne yapar?",
+            "en": "What does the guidance teacher do?",
+            "ar": "ما دور المعلم المرشد؟"
+          },
+          "answer": {
+            "tr": "Sınıfın uyumunu, ders çalışma alışkanlıklarını ve veliyle iletişimi izler.",
+            "en": "Follows the class’s wellbeing, study habits and contact with parents.",
+            "ar": "يتابع اندماج الفصل وعادات المذاكرة والتواصل مع أولياء الأمور."
+          }
+        },
+        {
+          "terim": {
+            "tr": "Kulüp",
+            "en": "Club",
+            "ar": "النادي"
+          },
+          "soru": {
+            "tr": "Kulüpler ücretli mi?",
+            "en": "Are clubs paid?",
+            "ar": "هل الأندية مدفوعة؟"
+          },
+          "cevap": {
+            "tr": "Okul içi kulüpler ders programının parçasıdır; ayrıntı görüşmede paylaşılır.",
+            "en": "In-school clubs are part of the timetable; details are shared at the meeting.",
+            "ar": "الأندية داخل المدرسة جزء من الجدول، وتُشارَك التفاصيل في اللقاء."
+          },
+          "question": {
+            "tr": "Kulüpler ücretli mi?",
+            "en": "Are clubs paid?",
+            "ar": "هل الأندية مدفوعة؟"
+          },
+          "answer": {
+            "tr": "Okul içi kulüpler ders programının parçasıdır; ayrıntı görüşmede paylaşılır.",
+            "en": "In-school clubs are part of the timetable; details are shared at the meeting.",
+            "ar": "الأندية داخل المدرسة جزء من الجدول، وتُشارَك التفاصيل في اللقاء."
+          }
+        },
+        {
+          "terim": {
+            "tr": "Fotoğraf rızası",
+            "en": "Photo consent",
+            "ar": "موافقة التصوير"
+          },
+          "soru": {
+            "tr": "Öğrenci fotoğrafları paylaşılır mı?",
+            "en": "Are student photos shared?",
+            "ar": "هل تُنشر صور الطلاب؟"
+          },
+          "cevap": {
+            "tr": "Yalnız velinin açık rızasıyla ve yalnız veli kanalında; bu sitede öğrenci fotoğrafı yoktur.",
+            "en": "Only with the parent’s explicit consent and only in the parent channel; this site shows no student photos.",
+            "ar": "فقط بموافقة صريحة من ولي الأمر وفي قناة أولياء الأمور فقط؛ لا توجد صور طلاب في هذا الموقع."
+          },
+          "question": {
+            "tr": "Öğrenci fotoğrafları paylaşılır mı?",
+            "en": "Are student photos shared?",
+            "ar": "هل تُنشر صور الطلاب؟"
+          },
+          "answer": {
+            "tr": "Yalnız velinin açık rızasıyla ve yalnız veli kanalında; bu sitede öğrenci fotoğrafı yoktur.",
+            "en": "Only with the parent’s explicit consent and only in the parent channel; this site shows no student photos.",
+            "ar": "فقط بموافقة صريحة من ولي الأمر وفي قناة أولياء الأمور فقط؛ لا توجد صور طلاب في هذا الموقع."
+          }
+        },
+        {
+          "terim": {
+            "tr": "Servis",
+            "en": "School bus",
+            "ar": "الحافلة المدرسية"
+          },
+          "soru": {
+            "tr": "Okul servisi var mı?",
+            "en": "Is there a school bus?",
+            "ar": "هل توجد حافلة مدرسية؟"
+          },
+          "cevap": {
+            "tr": "Şehitkamil ve Şahinbey güzergâhlarında servis bulunur (kurgusal).",
+            "en": "Buses run on the Sehitkamil and Sahinbey routes (fictional).",
+            "ar": "تعمل الحافلات على خطَّي شهيد كامل وشاهين بي (افتراضي)."
+          },
+          "question": {
+            "tr": "Okul servisi var mı?",
+            "en": "Is there a school bus?",
+            "ar": "هل توجد حافلة مدرسية؟"
+          },
+          "answer": {
+            "tr": "Şehitkamil ve Şahinbey güzergâhlarında servis bulunur (kurgusal).",
+            "en": "Buses run on the Sehitkamil and Sahinbey routes (fictional).",
+            "ar": "تعمل الحافلات على خطَّي شهيد كامل وشاهين بي (افتراضي)."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "data",
+        "alanlar": {
+          "soru": "dil sözlüğü (zorunlu; eski `question`)",
+          "cevap": "dil sözlüğü (eski `answer`)",
+          "kategori": "grup adı, dil sözlüğü (gruplayan yerleşimde)",
+          "ikon": "Material Symbols adı (destekleyen yerleşimde)",
+          "url": "«Devamı» bağlantısı (iç slug ya da tam URL)"
+        }
+      },
+      "id": "78sz7o",
+      "path": "sss-terim-sozluk",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "Ders Programı Tablo — gün × saat ızgarası, seviye süzgeci, mobilde gün sekmesi",
+      "description": "Kayıtların `gun` (1–7 ISO ya da dil sözlüğü) ve `saat` alanlarından gün sütunlu, saat satırlı gerçek bir tablo (<table>, th scope); hücrede ders çipi: ad, öğretmen/salon (metin), seviye rozeti (seviyeye göre ton). Üstte `seviye` değerlerinden türeyen çipler tabloyu süzer; 768 px altında gün sekmesi tek gün sütununu gösterir (açılışta bugün). Günü/saati olmayan dersler tablonun altında çip listesi. module ailesinde tablo yok. body/program-akis-2'nin (desing içi hafta ızgarası, bugün sütunu vurgusu) aksine data satırlarından gün/saat/seviye türetir, seviye süzgeci ve dar ekranda sütun gizleyen gün sekmesi (yatay kaydırma değil) ekler; program-akis-1'in gün sekmeli kart listesinden farklı olarak masaüstünde tüm hafta tek tabloda. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "calendar_view_week",
+      "category": "module",
+      "subCategory": "timetable-grid",
+      "tags": [
+        "module",
+        "timetable",
+        "table",
+        "filter",
+        "tabs",
+        "interactive",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1240px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Haftalık program",
+          "en": "Weekly timetable",
+          "ar": "الجدول الأسبوعي"
+        },
+        "baslik": {
+          "tr": "Bir haftada neler öğreniyoruz?",
+          "en": "What do we learn in a week?",
+          "ar": "ماذا نتعلّم في أسبوع؟"
+        },
+        "metin": {
+          "tr": "Örnek ders programı; seviyeye göre süzün. Program kurgusaldır, kesin program kayıtta paylaşılır.",
+          "en": "A sample timetable; filter by grade. The timetable is fictional; the final one is shared at enrolment.",
+          "ar": "جدول نموذجي؛ صفِّ حسب الصف. الجدول افتراضي، ويُشارَك الجدول النهائي عند التسجيل."
+        },
+        "img": "",
+        "img2": "",
+        "cta_ad": "",
+        "cta_url": "",
+        "cta2_ad": "",
+        "cta2_url": "",
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "seviyeAd": {
+          "tr": "Sınıf",
+          "en": "Grade",
+          "ar": "الصف"
+        },
+        "gunAd": {
+          "tr": "Gün seçin",
+          "en": "Choose a day",
+          "ar": "اختر يومًا"
+        },
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "title": "",
+        "name": "",
+        "description": "",
+        "name2": "",
+        "spot2": "",
+        "icon2": "",
+        "name3": "",
+        "spot3": "",
+        "icon3": ""
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Matematik",
+            "en": "Mathematics",
+            "ar": "الرياضيات"
+          },
+          "metin": {
+            "tr": "Murat A. · B-12",
+            "en": "Murat A. · B-12",
+            "ar": "مراد أ. · B-12"
+          },
+          "gun": 1,
+          "saat": "08:40",
+          "seviye": {
+            "tr": "5. sınıf",
+            "en": "Grade 5",
+            "ar": "الصف الخامس"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Fen laboratuvarı",
+            "en": "Science lab",
+            "ar": "مختبر العلوم"
+          },
+          "metin": {
+            "tr": "Elif K. · Lab 1",
+            "en": "Elif K. · Lab 1",
+            "ar": "إليف ك. · مختبر 1"
+          },
+          "gun": 1,
+          "saat": "10:20",
+          "seviye": {
+            "tr": "7. sınıf",
+            "en": "Grade 7",
+            "ar": "الصف السابع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "İngilizce",
+            "en": "English",
+            "ar": "الإنجليزية"
+          },
+          "metin": {
+            "tr": "Zehra T. · A-04",
+            "en": "Zehra T. · A-04",
+            "ar": "زهرة ت. · A-04"
+          },
+          "gun": 1,
+          "saat": "13:30",
+          "seviye": {
+            "tr": "9. sınıf",
+            "en": "Grade 9",
+            "ar": "الصف التاسع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Türkçe",
+            "en": "Turkish",
+            "ar": "اللغة التركية"
+          },
+          "metin": {
+            "tr": "Hakan Ö. · B-12",
+            "en": "Hakan O. · B-12",
+            "ar": "هاكان أ. · B-12"
+          },
+          "gun": 2,
+          "saat": "08:40",
+          "seviye": {
+            "tr": "5. sınıf",
+            "en": "Grade 5",
+            "ar": "الصف الخامس"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Matematik",
+            "en": "Mathematics",
+            "ar": "الرياضيات"
+          },
+          "metin": {
+            "tr": "Murat A. · B-21",
+            "en": "Murat A. · B-21",
+            "ar": "مراد أ. · B-21"
+          },
+          "gun": 2,
+          "saat": "10:20",
+          "seviye": {
+            "tr": "9. sınıf",
+            "en": "Grade 9",
+            "ar": "الصف التاسع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Görsel sanatlar",
+            "en": "Visual arts",
+            "ar": "الفنون البصرية"
+          },
+          "metin": {
+            "tr": "Deniz Y. · Atölye",
+            "en": "Deniz Y. · Studio",
+            "ar": "دنيز ي. · المرسم"
+          },
+          "gun": 2,
+          "saat": "13:30",
+          "seviye": {
+            "tr": "7. sınıf",
+            "en": "Grade 7",
+            "ar": "الصف السابع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Fen bilimleri",
+            "en": "Science",
+            "ar": "العلوم"
+          },
+          "metin": {
+            "tr": "Elif K. · Lab 1",
+            "en": "Elif K. · Lab 1",
+            "ar": "إليف ك. · مختبر 1"
+          },
+          "gun": 3,
+          "saat": "08:40",
+          "seviye": {
+            "tr": "5. sınıf",
+            "en": "Grade 5",
+            "ar": "الصف الخامس"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Sessiz okuma ve kütüphane",
+            "en": "Quiet reading and library",
+            "ar": "القراءة الهادئة والمكتبة"
+          },
+          "metin": {
+            "tr": "Kütüphane",
+            "en": "Library",
+            "ar": "المكتبة"
+          },
+          "gun": 3,
+          "saat": "10:20",
+          "seviye": {
+            "tr": "7. sınıf",
+            "en": "Grade 7",
+            "ar": "الصف السابع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Fizik",
+            "en": "Physics",
+            "ar": "الفيزياء"
+          },
+          "metin": {
+            "tr": "Can E. · Lab 2",
+            "en": "Can E. · Lab 2",
+            "ar": "جان إ. · مختبر 2"
+          },
+          "gun": 3,
+          "saat": "13:30",
+          "seviye": {
+            "tr": "9. sınıf",
+            "en": "Grade 9",
+            "ar": "الصف التاسع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "İngilizce",
+            "en": "English",
+            "ar": "الإنجليزية"
+          },
+          "metin": {
+            "tr": "Zehra T. · A-04",
+            "en": "Zehra T. · A-04",
+            "ar": "زهرة ت. · A-04"
+          },
+          "gun": 4,
+          "saat": "08:40",
+          "seviye": {
+            "tr": "5. sınıf",
+            "en": "Grade 5",
+            "ar": "الصف الخامس"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Bahçe dersi",
+            "en": "Garden lesson",
+            "ar": "درس الحديقة"
+          },
+          "metin": {
+            "tr": "Bahçe",
+            "en": "Garden",
+            "ar": "الحديقة"
+          },
+          "gun": 4,
+          "saat": "10:20",
+          "seviye": {
+            "tr": "7. sınıf",
+            "en": "Grade 7",
+            "ar": "الصف السابع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Seçmeli Arapça",
+            "en": "Elective Arabic",
+            "ar": "العربية الاختيارية"
+          },
+          "metin": {
+            "tr": "Selma R. · A-06",
+            "en": "Selma R. · A-06",
+            "ar": "سلمى ر. · A-06"
+          },
+          "gun": 4,
+          "saat": "13:30",
+          "seviye": {
+            "tr": "9. sınıf",
+            "en": "Grade 9",
+            "ar": "الصف التاسع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Müzik",
+            "en": "Music",
+            "ar": "الموسيقى"
+          },
+          "metin": {
+            "tr": "Ozan B. · Müzik odası",
+            "en": "Ozan B. · Music room",
+            "ar": "أوزان ب. · غرفة الموسيقى"
+          },
+          "gun": 5,
+          "saat": "08:40",
+          "seviye": {
+            "tr": "5. sınıf",
+            "en": "Grade 5",
+            "ar": "الصف الخامس"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Matematik",
+            "en": "Mathematics",
+            "ar": "الرياضيات"
+          },
+          "metin": {
+            "tr": "Murat A. · B-14",
+            "en": "Murat A. · B-14",
+            "ar": "مراد أ. · B-14"
+          },
+          "gun": 5,
+          "saat": "10:20",
+          "seviye": {
+            "tr": "7. sınıf",
+            "en": "Grade 7",
+            "ar": "الصف السابع"
+          }
+        },
+        {
+          "baslik": {
+            "tr": "Kulüp saati",
+            "en": "Club hour",
+            "ar": "ساعة الأندية"
+          },
+          "metin": {
+            "tr": "Kulüp salonları",
+            "en": "Club rooms",
+            "ar": "قاعات الأندية"
+          },
+          "gun": 5,
+          "saat": "13:30",
+          "seviye": {
+            "tr": "9. sınıf",
+            "en": "Grade 9",
+            "ar": "الصف التاسع"
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data",
+        "alanlar": {
+          "ikon": "madde ikonu (Material Symbols)",
+          "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+          "metin": "madde metni (dil sözlüğü)",
+          "url": "madde bağlantısı"
+        }
+      },
+      "id": "1qnalw",
+      "path": "ders-programi-tablo",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "Çağrı Kontenjan — ön kayıt doluluk panosu",
+      "description": "Bir yanda üst etiket, başlık, metin, son başvuru çipi ve düğmeler; öbür yanda doluluk panosu: kalan kontenjan dev sayıyla (görününce sayar), yüzdeli ana doluluk çubuğu (role=meter) ve kademe satırları (data: baslik = kademe, aciklama = «dolu/toplam»). Sayı yoksa yalnız kademeler ya da metin + düğme. Aciliyet sayıyla kurulur: cagri-maddeler gerekçe listeler, stats ailesi sayıyı bilgi olarak verir; bu modül kalan yer + doluluk çubuğuyla «yer kalmadan başvur» çağrısı yapar — ailede ilerleme/ölçer iskeleti yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık da düğme de yoksa blok basılmaz.",
+      "version": "1.0.0",
+      "icon": "school",
+      "category": "cta",
+      "subCategory": "enrollment-quota",
+      "tags": [
+        "cta",
+        "quota",
+        "progress",
+        "enrollment",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(56px, 8vw, 104px)",
+        "yuvarlak": "18px",
+        "ust": {
+          "tr": "Ön kayıt",
+          "en": "Pre-registration",
+          "ar": "التسجيل المسبق"
+        },
+        "baslik": "",
+        "metin": "",
+        "btn1Text": {
+          "tr": "WhatsApp ile görüşme al",
+          "en": "Book via WhatsApp",
+          "ar": "احجز عبر واتساب"
+        },
+        "btn1Url": "https://wa.me/903420600505",
+        "btn2Text": "",
+        "btn2Url": "teklif-al",
+        "img": "",
+        "alt": "",
+        "ikon": "",
+        "not": {
+          "tr": "Kontenjan sayıları kurgusaldır.",
+          "en": "Place numbers are fictional.",
+          "ar": "أرقام المقاعد افتراضية."
+        },
+        "number": "903420600505",
+        "numberText": "+90 342 060 05 05",
+        "waLabel": {
+          "tr": "Mesaj gönder",
+          "en": "Send a message",
+          "ar": "أرسل رسالة"
+        },
+        "waTitle": {
+          "tr": "WhatsApp ile yazın",
+          "en": "Write on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "waMessage": {
+          "tr": "Merhaba, Atlas Koleji ön kayıt görüşmesi için gün almak istiyorum.",
+          "en": "Hello, I would like to book a pre-registration meeting at Atlas College.",
+          "ar": "مرحبًا، أودّ حجز موعد للقاء التسجيل المسبق في كلية أطلس."
+        },
+        "hours": {
+          "tr": "Pzt–Cum 08:00 – 17:30 · Cmt 09:00 – 13:00 (randevulu)",
+          "en": "Mon–Fri 08:00 – 17:30 · Sat 09:00 – 13:00 (by appointment)",
+          "ar": "الاثنين–الجمعة 08:00 – 17:30 · السبت 09:00 – 13:00 (بموعد)"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "yaziRenk": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "sag": "whatsapp",
+        "title": {
+          "tr": "2027–28 ön kayıt kontenjanı",
+          "en": "2027–28 pre-registration places",
+          "ar": "مقاعد التسجيل المسبق 2027–28"
+        },
+        "btn1Label": {
+          "tr": "WhatsApp ile görüşme al",
+          "en": "Book via WhatsApp",
+          "ar": "احجز عبر واتساب"
+        },
+        "btn2Label": {
+          "tr": "Akademik takvim",
+          "en": "Academic calendar",
+          "ar": "التقويم الأكاديمي"
+        },
+        "description": {
+          "tr": "Her sınıf en fazla 22 öğrenci. Kalan yerler kademe kademe aşağıda; görüşme günü için yazın.",
+          "en": "At most 22 students per class. Remaining places by grade are below; write to book a meeting day.",
+          "ar": "حدٌّ أقصى 22 طالبًا لكل فصل. المقاعد المتبقية حسب الصف أدناه؛ راسلنا لحجز موعد اللقاء."
+        },
+        "kontenjan": 132,
+        "dolu": 97,
+        "kalanAd": {
+          "tr": "yer kaldı",
+          "en": "places left",
+          "ar": "مقعدًا متبقيًا"
+        },
+        "sonTarih": {
+          "tr": "Son başvuru: 30 Nisan 2027",
+          "en": "Deadline: 30 April 2027",
+          "ar": "آخر موعد: 30 أبريل 2027"
+        }
+      },
+      "data": [
+        {
+          "ikon": "looks_5",
+          "baslik": {
+            "tr": "5. sınıf",
+            "en": "Grade 5",
+            "ar": "الصف الخامس"
+          },
+          "aciklama": "38/44"
+        },
+        {
+          "ikon": "looks_one",
+          "baslik": {
+            "tr": "7. sınıf",
+            "en": "Grade 7",
+            "ar": "الصف السابع"
+          },
+          "aciklama": "33/44"
+        },
+        {
+          "ikon": "school",
+          "baslik": {
+            "tr": "9. sınıf",
+            "en": "Grade 9",
+            "ar": "الصف التاسع"
+          },
+          "aciklama": "26/44"
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "ikon": "Material Symbols adı (madde)",
+          "baslik": "dil sözlüğü (madde yazısı, zorunlu)",
+          "aciklama": "dil sözlüğü (madde alt yazısı)"
+        }
+      },
+      "id": "cpxycm",
+      "path": "cagri-kontenjan",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Alt Üç Kart — iletişim · saatler · bülten kartları, altında ince gezinme",
+      "description": "Üstte üç eşit kart: iletişim (adres, telefon, e-posta + sosyal), çalışma saatleri (tablo), bülten (başlık, form, KVKK); altında tek satırda logo + sayfalar + hizmetler, en altta telif, yasal, dil ve başa dön. Ziyaretçinin footer'da en çok aradığı üç bilgi eşit ağırlıklı kartlarda; gezinme ikincil, ince bir satıra indirgenir. Sayfalar site sayfalarından, iletişim desing → site ayarı, sosyal wmSocialBar, dil seçici {{langbar}}. Metinler dil sözlüğü / lang.json; renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+      "version": "1.0.0",
+      "icon": "view_column",
+      "category": "footer",
+      "subCategory": "three-cards",
+      "tags": [
+        "footer",
+        "cards",
+        "contact-first",
+        "hours",
+        "rtl",
+        "fabrika"
+      ],
+      "desing": {
+        "max": "1200px",
+        "bosluk": "clamp(48px, 6vw, 80px)",
+        "yuvarlak": "18px",
+        "ust": "",
+        "baslik": "",
+        "metin": "",
+        "hakkinda": {
+          "tr": "Ortaokul ve lise. Atlas Koleji kurgusal bir demo okuldur; MEB kurum kodu ve tüm bilgiler örnektir.",
+          "en": "Middle and high school. Atlas College is a fictional demo school; the MoNE institution code and all details are samples.",
+          "ar": "المرحلتان المتوسطة والثانوية. كلية أطلس مدرسة تجريبية افتراضية؛ رمز المؤسسة لدى وزارة التربية وجميع البيانات نماذج."
+        },
+        "tel": "+90 342 060 05 05",
+        "eposta": "kayit@atlaskoleji.example",
+        "adres": {
+          "tr": "Okul Yolu No: 3, İbrahimli, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "3 Okul Road, Ibrahimli, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "طريق المدرسة رقم 3، إبراهيملي، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "cta_ad": "",
+        "cta_url": "",
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır. Kurgusal demo okul.",
+          "en": "All rights reserved. Fictional demo school.",
+          "ar": "جميع الحقوق محفوظة. مدرسة تجريبية افتراضية."
+        },
+        "bg": "var(--mx-site-surface, #f6f7f9)",
+        "text": "var(--mx-site-text, #111318)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+        "kartBg": "var(--mx-site-bg, #ffffff)",
+        "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "vurguBg": "var(--mx-site-primary, #2563eb)",
+        "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+        "logoH": "48px",
+        "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+        "color": "var(--mx-site-text, #111318)",
+        "showlang": true,
+        "maxpages": 8,
+        "nlShow": true,
+        "nlGonderim": "mailto",
+        "about": {
+          "tr": "Atlas Koleji demo temadır; okul, kurum kodu, kişiler ve takvim kurgusaldır.",
+          "en": "Atlas College is a demo theme; the school, institution code, people and calendar are fictional.",
+          "ar": "كلية أطلس قالب تجريبي؛ المدرسة ورمز المؤسسة والأشخاص والتقويم افتراضية."
+        },
+        "address": {
+          "tr": "Okul Yolu No: 3, İbrahimli, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "3 Okul Road, Ibrahimli, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "طريق المدرسة رقم 3، إبراهيملي، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 060 05 05",
+        "email": "kayit@atlaskoleji.example",
+        "social": [],
+        "legal": [
+          {
+            "name": {
+              "tr": "KVKK",
+              "en": "Privacy (KVKK)",
+              "ar": "حماية البيانات"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "name": {
+              "tr": "Gizlilik",
+              "en": "Privacy policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "name": {
+              "tr": "Yasal uyarı",
+              "en": "Legal notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "nlTitle": {
+          "tr": "Okul bülteni",
+          "en": "School newsletter",
+          "ar": "نشرة المدرسة"
+        },
+        "nlText": {
+          "tr": "Takvim ve açık gün duyuruları için e-posta bırakın. Demo sitede veri saklanmaz.",
+          "en": "Leave your e-mail for calendar and open day news. No data is stored on this demo site.",
+          "ar": "اترك بريدك لإعلانات التقويم واليوم المفتوح. لا تُحفظ البيانات في هذا الموقع التجريبي."
+        },
+        "nlKvkk": {
+          "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
+          "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+        },
+        "services": [
+          {
+            "name": {
+              "tr": "Ders programı",
+              "en": "Timetable",
+              "ar": "الجدول الدراسي"
+            },
+            "href": "hizmetler"
+          },
+          {
+            "name": {
+              "tr": "Ön kayıt",
+              "en": "Pre-registration",
+              "ar": "التسجيل المسبق"
+            },
+            "href": "teklif-al"
+          },
+          {
+            "name": {
+              "tr": "Öğretmenler",
+              "en": "Teachers",
+              "ar": "المعلمون"
+            },
+            "href": "ekip"
+          }
+        ],
+        "hours": [
+          {
+            "days": {
+              "tr": "Pazartesi–Cuma",
+              "en": "Monday–Friday",
+              "ar": "الاثنين–الجمعة"
+            },
+            "time": "08:00 – 17:30"
+          },
+          {
+            "days": {
+              "tr": "Cumartesi (randevulu)",
+              "en": "Saturday (by appointment)",
+              "ar": "السبت (بموعد)"
+            },
+            "time": "09:00 – 13:00"
+          },
+          {
+            "days": {
+              "tr": "Pazar",
+              "en": "Sunday",
+              "ar": "الأحد"
+            },
+            "time": {
+              "tr": "Kapalı",
+              "en": "Closed",
+              "ar": "مغلق"
+            }
+          }
+        ],
+        "nlEmail": "kayit@atlaskoleji.example"
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing",
+        "alanlar": {
+          "hakkinda": "kısa tanıtım (dil sözlüğü; yoksa setting.description)",
+          "tel": "telefon (yoksa setting.phone)",
+          "eposta": "e-posta (yoksa setting.email)",
+          "adres": "adres (dil sözlüğü; yoksa setting.address)",
+          "services": "bağlantı listesi [{ name, href }] (footer-10)",
+          "hours": "çalışma saatleri [{ days, time }]",
+          "legal": "yasal bağlantılar [{ text, href }]",
+          "social": "sosyal hesaplar [{ ad, url }] (yoksa site ayarı)",
+          "rightsText": "telif satırı (yoksa @all-rights@)",
+          "nlTitle": "bülten başlığı (bülten formu yalnız başlık/metin + alıcı e-posta varken)"
+        }
+      },
+      "id": "dsx22e",
+      "path": "alt-uc-kart",
+      "local": "footer",
+      "index": 23
+    }
+  ]
+}

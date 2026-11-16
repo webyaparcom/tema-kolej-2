@@ -1,0 +1,46 @@
+{
+  "id": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {
+    "tr": "Misyon",
+    "en": "mission, our mission, corporate responsibility",
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+  },
+  "path": "misyon",
+  "icon": "flag",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Her öğrencinin merakını, okuma alışkanlığını ve birlikte çalışma becerisini güvenli bir okulda büyütmek.</p>",
+    "en": "<h2>Our mission</h2>\n<p>To grow every student’s curiosity, reading habit and teamwork in a safe school.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>تنمية فضول كل طالب وعادة القراءة والعمل الجماعي في مدرسة آمنة.</p>"
+  },
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "date": "2026-11-16T11:58:06.365Z",
+  "update": "2026-11-16T12:04:16.143Z",
+  "sablonIzi": "a8a6ac234dced5af",
+  "sablonIziDil": {
+    "en": "3f5f6c628dec679f",
+    "ar": "c861990d3945ecd7"
+  }
+}
