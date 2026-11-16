@@ -1,0 +1,58 @@
+{
+  "name": "Ders Programı Tablo — gün × saat ızgarası, seviye süzgeci, mobilde gün sekmesi",
+  "description": "Kayıtların `gun` (1–7 ISO ya da dil sözlüğü) ve `saat` alanlarından gün sütunlu, saat satırlı gerçek bir tablo (<table>, th scope); hücrede ders çipi: ad, öğretmen/salon (metin), seviye rozeti (seviyeye göre ton). Üstte `seviye` değerlerinden türeyen çipler tabloyu süzer; 768 px altında gün sekmesi tek gün sütununu gösterir (açılışta bugün). Günü/saati olmayan dersler tablonun altında çip listesi. module ailesinde tablo yok. body/program-akis-2'nin (desing içi hafta ızgarası, bugün sütunu vurgusu) aksine data satırlarından gün/saat/seviye türetir, seviye süzgeci ve dar ekranda sütun gizleyen gün sekmesi (yatay kaydırma değil) ekler; program-akis-1'in gün sekmeli kart listesinden farklı olarak masaüstünde tüm hafta tek tabloda. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Başlık ve metin yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "calendar_view_week",
+  "category": "module",
+  "subCategory": "timetable-grid",
+  "tags": [
+    "module",
+    "timetable",
+    "table",
+    "filter",
+    "tabs",
+    "interactive",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1240px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "img": "",
+    "img2": "",
+    "cta_ad": "",
+    "cta_url": "",
+    "cta2_ad": "",
+    "cta2_url": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "seviyeAd": "",
+    "gunAd": "",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "desing/data",
+    "alanlar": {
+      "ikon": "madde ikonu (Material Symbols)",
+      "baslik": "madde başlığı (dil sözlüğü, zorunlu)",
+      "metin": "madde metni (dil sözlüğü)",
+      "url": "madde bağlantısı"
+    }
+  }
+}

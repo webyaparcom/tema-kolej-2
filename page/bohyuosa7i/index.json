@@ -1,0 +1,41 @@
+{
+  "id": "bohyuosa7i",
+  "name": {
+    "tr": "Program",
+    "en": "Programme",
+    "ar": "البرنامج"
+  },
+  "description": {
+    "tr": "Haftalık ders programı ve okul felsefesi.",
+    "en": "Weekly timetable and school philosophy.",
+    "ar": "الجدول الأسبوعي وفلسفة المدرسة."
+  },
+  "keyword": {
+    "tr": "Okul felsefesi",
+    "en": "Our philosophy",
+    "ar": "فلسفتنا"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "1qnalw",
+      "372a9m",
+      "cpxycm"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Program",
+    "en": "Programme",
+    "ar": "البرنامج"
+  },
+  "date": "2026-11-16T11:58:06.518Z",
+  "update": "2026-11-16T12:04:16.118Z"
+}

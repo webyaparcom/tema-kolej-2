@@ -1,0 +1,141 @@
+<section class="modulex-ders-programi-tablo{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ders-programi-tablo-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* ders-programi-tablo — module ailesinde tablo yok. body/program-akis-2'nin (desing içi hafta ızgarası, bugün sütunu vurgusu) aksine data satırlarından gün/saat/seviye türetir, seviye süzgeci ve dar ekranda sütun gizleyen gün sekmesi (yatay kaydırma değil) ekler; program-akis-1'in gün sekmeli kart listesinden farklı olarak masaüstünde tüm hafta tek tabloda. */
+  .modulex-ders-programi-tablo { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ders-programi-tablo *, .modulex-ders-programi-tablo *::before, .modulex-ders-programi-tablo *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ders-programi-tablo :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ders-programi-tablo :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ders-programi-tablo :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ders-programi-tablo :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ders-programi-tablo img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ders-programi-tablo) img { height: auto; }
+  .modulex-ders-programi-tablo [hidden] { display: none !important; }
+  .modulex-ders-programi-tablo :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ders-programi-tablo :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ders-programi-tablo-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ders-programi-tablo-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ders-programi-tablo--bassiz .modulex-ders-programi-tablo-bas { display: none; }
+  .modulex-ders-programi-tablo-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ders-programi-tablo-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ders-programi-tablo-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ders-programi-tablo-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ders-programi-tablo-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ders-programi-tablo-dugme:hover { transform: translateY(-2px); }
+  .modulex-ders-programi-tablo-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ders-programi-tablo-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ders-programi-tablo-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ders-programi-tablo-program { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .modulex-ders-programi-tablo-program > * { min-width: 0; }
+  .modulex-ders-programi-tablo-giris { display: grid; gap: 14px; max-width: 760px; margin-block-end: 10px; }
+  .modulex-ders-programi-tablo-cubuk { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+  .modulex-ders-programi-tablo:not(.modulex-ders-programi-tablo--js) .modulex-ders-programi-tablo-cubuk { display: none; }
+  .modulex-ders-programi-tablo-filtre { display: flex; flex-wrap: wrap; gap: 6px; }
+  .modulex-ders-programi-tablo-fcip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1.5px solid --cizgi--; border-radius: 999px; background: --bg--; color: --text--; font: inherit; font-size: 0.88rem; font-weight: 700; transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease; }
+  .modulex-ders-programi-tablo-fcip:hover { border-color: --accent--; }
+  .modulex-ders-programi-tablo-fcip[aria-pressed="true"] { border-color: --text--; background: --text--; color: --bg--; }
+  .modulex-ders-programi-tablo-fnokta { width: 10px; height: 10px; border-radius: 50%; background: --accent--; }
+  .modulex-ders-programi-tablo-fnokta--r1 { background: --text--; }
+  .modulex-ders-programi-tablo-fnokta--r2 { background: transparent; border: 2px dashed --accentInk--; }
+  .modulex-ders-programi-tablo-fnokta--r3 { background: --accentInk--; }
+  .modulex-ders-programi-tablo-cerceve { overflow-x: auto; border: 1px solid --cizgi--; border-radius: --yuvarlak--; background: --bg--; }
+  .modulex-ders-programi-tablo-tablo { width: 100%; min-width: 760px; border-collapse: separate; border-spacing: 0; table-layout: fixed; }
+  .modulex-ders-programi-tablo-tablo :is(th, td) { padding: 8px; border-block-end: 1px solid --cizgi--; border-inline-end: 1px solid --cizgi--; vertical-align: top; }
+  .modulex-ders-programi-tablo-tablo tr > :last-child { border-inline-end: 0; }
+  .modulex-ders-programi-tablo-tablo tbody tr:last-child > * { border-block-end: 0; }
+  .modulex-ders-programi-tablo-tablo thead th { padding-block: 14px; background: --kartBg--; font-size: 0.9rem; font-weight: 800; text-align: center; text-transform: capitalize; }
+  .modulex-ders-programi-tablo-kose { width: 88px; color: --muted--; }
+  .modulex-ders-programi-tablo-tablo tbody th { color: --muted--; font-size: 0.86rem; font-weight: 750; font-variant-numeric: tabular-nums; text-align: center; white-space: nowrap; }
+  .modulex-ders-programi-tablo-bos { background: repeating-linear-gradient(135deg, transparent 0 8px, color-mix(in srgb, --text-- 3%, transparent) 8px 16px); }
+  td.modulex-ders-programi-tablo--sonuk { opacity: 0.4; }
+  .modulex-ders-programi-tablo-ders { display: grid; gap: 2px; margin-block-end: 6px; padding: 8px 10px; border-inline-start: 4px solid --accent--; border-radius: 10px; background: color-mix(in srgb, --accent-- 10%, transparent); font-size: 0.85rem; line-height: 1.35; transition: transform 0.2s ease, box-shadow 0.2s ease; animation: modulex-ders-programi-tablo-gir 0.35s ease both; }
+  .modulex-ders-programi-tablo-ders:last-child { margin-block-end: 0; }
+  .modulex-ders-programi-tablo-ders:hover { transform: translateY(-2px); box-shadow: 0 10px 18px -14px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-ders-programi-tablo-ders--r1 { border-inline-start-color: --text--; background: color-mix(in srgb, --text-- 7%, transparent); }
+  .modulex-ders-programi-tablo-ders--r2 { border-inline-start-style: dashed; border-inline-start-color: --accentInk--; background: --kartBg--; }
+  .modulex-ders-programi-tablo-ders--r3 { border-inline-start-color: --accentInk--; background: color-mix(in srgb, --accent-- 22%, transparent); }
+  .modulex-ders-programi-tablo-dikon { color: --accentInk--; font-size: 18px; }
+  .modulex-ders-programi-tablo-dad { font-weight: 750; }
+  .modulex-ders-programi-tablo-dkim { color: --muted--; font-size: 0.78rem; }
+  .modulex-ders-programi-tablo-dsev { justify-self: start; margin-block-start: 3px; padding: 1px 8px; border-radius: 999px; background: --bg--; font-size: 0.7rem; font-style: normal; font-weight: 750; }
+  .modulex-ders-programi-tablo-serbest { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 10px; }
+  .modulex-ders-programi-tablo-serbest .modulex-ders-programi-tablo-ders { margin: 0; }
+  .modulex-ders-programi-tablo-gunsec { display: none; }
+  @keyframes modulex-ders-programi-tablo-gir { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  @media (max-width: 768px) {
+    .modulex-ders-programi-tablo--js .modulex-ders-programi-tablo-gunsec { display: flex; gap: 6px; width: 100%; overflow-x: auto; scrollbar-width: none; }
+    .modulex-ders-programi-tablo-gsec { flex: none; padding: 8px 14px; border: 0; border-radius: 10px; background: --bg--; color: --text--; font: inherit; font-weight: 700; text-transform: capitalize; transition: background 0.2s ease, color 0.2s ease; }
+    .modulex-ders-programi-tablo-gsec[aria-selected="true"] { background: --accent--; color: --accentText--; }
+    .modulex-ders-programi-tablo--js .modulex-ders-programi-tablo-tablo { min-width: 0; }
+    .modulex-ders-programi-tablo--js .modulex-ders-programi-tablo--disi { display: none; }
+    .modulex-ders-programi-tablo-kose { width: 70px; }
+  }
+  .modulex-ders-programi-tablo-bag { color: inherit; text-decoration: none; }
+  .modulex-ders-programi-tablo-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .modulex-ders-programi-tablo-mbaslik { font-size: 1.05rem; font-weight: 700; }
+  .modulex-ders-programi-tablo-mmetin { color: --muted--; font-size: 0.95rem; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ders-programi-tablo :is(.modulex-ders-programi-tablo-baslik, .modulex-ders-programi-tablo-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ders-programi-tablo-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ders-programi-tablo { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ders-programi-tablo *, .modulex-ders-programi-tablo *::before, .modulex-ders-programi-tablo *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-ders-programi-tablo";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const dersProgram = (s, P) => {
+        const kok = s.querySelector("[data-ders]");
+        if (!kok) return;
+        s.classList.add(P + "--js");
+        const fc = [...s.querySelectorAll("[data-fsev]")];
+        const dr = [...s.querySelectorAll("[data-sev]")];
+        const filtre = (v) => {
+          fc.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.fsev === v)));
+          dr.forEach((d) => { d.hidden = v !== "" && d.dataset.sev !== v; });
+          s.querySelectorAll("td[data-g]").forEach((td) => td.classList.toggle(P + "--sonuk", td.children.length > 0 && ![...td.children].some((c) => !c.hidden)));
+        };
+        fc.forEach((b) => b.addEventListener("click", () => filtre(b.dataset.fsev)));
+        const gb = [...s.querySelectorAll("[data-gsec]")];
+        const gun = (j, odak) => {
+          gb.forEach((b) => { const a = b.dataset.gsec === j; b.setAttribute("aria-selected", String(a)); b.tabIndex = a ? 0 : -1; if (a && odak) b.focus(); });
+          s.querySelectorAll("[data-g]").forEach((c) => c.classList.toggle(P + "--disi", c.dataset.g !== j));
+        };
+        if (gb.length) {
+          const bugun = String(((new Date().getDay() + 6) % 7) + 1);
+          const ilk = gb.find((b) => b.dataset.iso === bugun) || gb[0];
+          gb.forEach((b, i) => {
+            b.addEventListener("click", () => gun(b.dataset.gsec));
+            b.addEventListener("keydown", (e) => {
+              const rtl = getComputedStyle(s).direction === "rtl";
+              let n = null;
+              if (e.key === (rtl ? "ArrowLeft" : "ArrowRight")) n = i + 1;
+              else if (e.key === (rtl ? "ArrowRight" : "ArrowLeft")) n = i - 1;
+              if (n === null) return;
+              e.preventDefault();
+              gun(gb[(n + gb.length) % gb.length].dataset.gsec, true);
+            });
+          });
+          gun(ilk.dataset.gsec);
+        }
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      dersProgram(s, P, az);
+    });
+  })();
+</script>

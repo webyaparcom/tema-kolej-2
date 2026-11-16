@@ -1,0 +1,202 @@
+<section class="modulex-zaman-akademik-takvim{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-zaman-akademik-takvim-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* zaman-akademik-takvim — zaman-takvim-yaprak yalnız yıl yazan statik kâğıt kartlardır, zaman-sekme-yil bir yıl paneli seçtirir, hafta-zaman-cizelgesi hafta numarası pistidir; bu modül gerçek tarihlerle çalışır (ISO gün → ay şeridi, bugün işareti, kalan gün sayacı) ve olay türüne göre süzer — tarihçe değil ileriye dönük takvim. */
+  .modulex-zaman-akademik-takvim { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-zaman-akademik-takvim *, .modulex-zaman-akademik-takvim *::before, .modulex-zaman-akademik-takvim *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-zaman-akademik-takvim :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-zaman-akademik-takvim :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-zaman-akademik-takvim :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-zaman-akademik-takvim :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-zaman-akademik-takvim img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-zaman-akademik-takvim) img { height: auto; }
+  .modulex-zaman-akademik-takvim [hidden] { display: none !important; }
+  .modulex-zaman-akademik-takvim :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-zaman-akademik-takvim :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-zaman-akademik-takvim-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-zaman-akademik-takvim-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-zaman-akademik-takvim--bassiz .modulex-zaman-akademik-takvim-bas { display: none; }
+  .modulex-zaman-akademik-takvim-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-zaman-akademik-takvim-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-zaman-akademik-takvim-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-zaman-akademik-takvim-bas { max-width: 760px; }
+  .modulex-zaman-akademik-takvim-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-zaman-akademik-takvim-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-zaman-akademik-takvim-dugme:hover { transform: translateY(-2px); }
+  .modulex-zaman-akademik-takvim-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-zaman-akademik-takvim-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-zaman-akademik-takvim-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-zaman-akademik-takvim-takvim { display: grid; gap: 22px; }
+  .modulex-zaman-akademik-takvim-arac { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 28px; }
+  .modulex-zaman-akademik-takvim-sayac { display: inline-flex; align-items: center; gap: 14px; padding-block: 10px; padding-inline: 12px 22px; border-radius: 16px; background: --vurguBg--; color: --vurguText--; box-shadow: 0 16px 30px -22px color-mix(in srgb, --text-- 70%, transparent); animation: modulex-zaman-akademik-takvim-sayacGel 0.5s ease both; }
+  .modulex-zaman-akademik-takvim-sikon { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: color-mix(in srgb, --vurguText-- 16%, transparent); font-size: 24px; }
+  .modulex-zaman-akademik-takvim-syazi { display: grid; gap: 2px; min-width: 0; }
+  .modulex-zaman-akademik-takvim-sad { font-size: 0.74rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-zaman-akademik-takvim-sbag { color: inherit; font-weight: 750; text-decoration: none; }
+  .modulex-zaman-akademik-takvim-sbag:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .modulex-zaman-akademik-takvim-skalan { display: inline-flex; align-items: baseline; gap: 4px; padding-inline-start: 14px; border-inline-start: 1px solid color-mix(in srgb, --vurguText-- 35%, transparent); font-weight: 700; white-space: nowrap; }
+  .modulex-zaman-akademik-takvim-ssayi { font-size: 2rem; font-weight: 850; line-height: 1; font-variant-numeric: tabular-nums; }
+  .modulex-zaman-akademik-takvim-cipler { display: flex; flex-wrap: wrap; gap: 8px; }
+  .modulex-zaman-akademik-takvim-cip { display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 6px 14px; border: 1.5px solid --cizgi--; border-radius: 10px; background: --kartBg--; color: --text--; font: inherit; font-size: 0.92rem; font-weight: 650; transition: border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease; }
+  .modulex-zaman-akademik-takvim-cip:hover { border-color: --accent--; }
+  .modulex-zaman-akademik-takvim-cip[aria-pressed="true"] { border-color: --text--; background: --text--; color: --bg--; }
+  .modulex-zaman-akademik-takvim-cnokta { width: 10px; height: 10px; border-radius: 3px; background: var(--ton); }
+  .modulex-zaman-akademik-takvim-csay { min-width: 1.6em; padding: 0 6px; border-radius: 6px; background: color-mix(in srgb, currentColor 12%, transparent); font-size: 0.8rem; text-align: center; font-variant-numeric: tabular-nums; }
+  .modulex-zaman-akademik-takvim [data-ton="0"] { --ton: --accent--; }
+  .modulex-zaman-akademik-takvim [data-ton="1"] { --ton: color-mix(in srgb, --accent-- 45%, --text--); }
+  .modulex-zaman-akademik-takvim [data-ton="2"] { --ton: color-mix(in srgb, --accent-- 40%, --bg--); }
+  .modulex-zaman-akademik-takvim [data-ton="3"] { --ton: color-mix(in srgb, --text-- 45%, --bg--); }
+  .modulex-zaman-akademik-takvim-aylar { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(72px, 1fr); overflow-x: auto; border: 1px solid --cizgi--; border-radius: --yuvarlak--; background: --kartBg--; scrollbar-width: thin; }
+  .modulex-zaman-akademik-takvim-ay { position: relative; min-height: 96px; border-inline-start: 1px solid --cizgi--; transition: background-color 0.25s ease; }
+  .modulex-zaman-akademik-takvim-ay:first-child { border-inline-start: 0; }
+  .modulex-zaman-akademik-takvim-aybag { display: grid; align-content: start; gap: 6px; height: 100%; padding: 12px 10px 26px; color: inherit; text-decoration: none; }
+  a.modulex-zaman-akademik-takvim-aybag:hover { background: color-mix(in srgb, --accent-- 7%, transparent); }
+  .modulex-zaman-akademik-takvim-ayyil { color: --muted--; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; }
+  .modulex-zaman-akademik-takvim-ayad { font-weight: 800; text-transform: capitalize; }
+  .modulex-zaman-akademik-takvim-ay--bos .modulex-zaman-akademik-takvim-ayad { color: --muted--; font-weight: 600; }
+  .modulex-zaman-akademik-takvim-noktalar { display: flex; flex-wrap: wrap; gap: 4px; }
+  .modulex-zaman-akademik-takvim-nokta { width: 10px; height: 10px; border-radius: 50%; background: var(--ton, --accent--); transition: transform 0.2s ease, opacity 0.2s ease; }
+  a.modulex-zaman-akademik-takvim-aybag:hover .modulex-zaman-akademik-takvim-nokta { transform: scale(1.3); }
+  .modulex-zaman-akademik-takvim-nokta.modulex-zaman-akademik-takvim--sonuk { opacity: 0.18; }
+  .modulex-zaman-akademik-takvim-ay.modulex-zaman-akademik-takvim--bugun { background: color-mix(in srgb, --accent-- 10%, transparent); }
+  .modulex-zaman-akademik-takvim-ay.modulex-zaman-akademik-takvim--bugun::after { content: ""; position: absolute; inset-block: 0; inset-inline-start: calc(var(--gun, 0.5) * 100%); width: 2px; background: --text--; pointer-events: none; }
+  .modulex-zaman-akademik-takvim-bugun { position: absolute; inset-block-end: 4px; inset-inline-start: calc(var(--gun, 0.5) * 100%); z-index: 1; padding: 1px 6px; border-radius: 6px; background: --text--; color: --bg--; font-size: 0.7rem; font-weight: 800; white-space: nowrap; translate: -50% 0; }
+  .modulex-zaman-akademik-takvim-bugun:dir(rtl) { translate: 50% 0; }
+  .modulex-zaman-akademik-takvim-gruplar { display: grid; gap: 26px; }
+  .modulex-zaman-akademik-takvim-grup { display: grid; gap: 10px; scroll-margin-block-start: 90px; }
+  .modulex-zaman-akademik-takvim-grupad { position: sticky; inset-block-start: 70px; z-index: 2; padding-block: 6px; background: --bg--; font-size: 1.05rem; font-weight: 800; text-transform: capitalize; }
+  .modulex-zaman-akademik-takvim-olaylar { display: grid; gap: 10px; }
+  .modulex-zaman-akademik-takvim-olay { position: relative; display: grid; grid-template-columns: 70px minmax(0, 1fr) auto; align-items: center; gap: 18px; padding-block: 12px; padding-inline: 12px 18px; border-inline-start: 5px solid var(--ton, --cizgi--); border-radius: 14px; background: --kartBg--; scroll-margin-block-start: 120px; transition: opacity 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; }
+  .modulex-zaman-akademik-takvim-olay:hover { transform: translateY(-2px); }
+  .modulex-zaman-akademik-takvim-olay.modulex-zaman-akademik-takvim--gecti { border-inline-start-style: dashed; background: transparent; box-shadow: inset 0 0 0 1px --cizgi--; }
+  .modulex-zaman-akademik-takvim-olay.modulex-zaman-akademik-takvim--gecti .modulex-zaman-akademik-takvim-tgun { color: --muted--; }
+  .modulex-zaman-akademik-takvim-olay.modulex-zaman-akademik-takvim--gecti .modulex-zaman-akademik-takvim-kbaslik { text-decoration: line-through; text-decoration-thickness: 1px; text-decoration-color: --muted--; }
+  .modulex-zaman-akademik-takvim-olay.modulex-zaman-akademik-takvim--sirada, .modulex-zaman-akademik-takvim-olay.modulex-zaman-akademik-takvim--suruyor { box-shadow: 0 0 0 2px --accent--, 0 14px 26px -20px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-zaman-akademik-takvim-tarih { display: grid; justify-items: center; align-content: center; gap: 2px; min-height: 64px; border-radius: 10px; background: --bg--; }
+  .modulex-zaman-akademik-takvim-tgun { font-size: 1.8rem; font-weight: 850; line-height: 1; font-variant-numeric: tabular-nums; }
+  .modulex-zaman-akademik-takvim-thg { color: --muted--; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+  .modulex-zaman-akademik-takvim-tarih--serbest { color: --accentInk--; font-weight: 850; }
+  .modulex-zaman-akademik-takvim-ogovde { display: grid; gap: 4px; min-width: 0; }
+  .modulex-zaman-akademik-takvim-oust { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; color: --muted--; font-size: 0.85rem; }
+  .modulex-zaman-akademik-takvim-tur { display: inline-flex; align-items: center; gap: 6px; color: --text--; font-weight: 750; }
+  .modulex-zaman-akademik-takvim-tur::before { content: ""; width: 8px; height: 8px; border-radius: 2px; background: var(--ton, --accent--); }
+  .modulex-zaman-akademik-takvim-aralik { font-variant-numeric: tabular-nums; }
+  .modulex-zaman-akademik-takvim-kbaslik { font-size: 1.06rem; font-weight: 750; line-height: 1.35; }
+  .modulex-zaman-akademik-takvim-kmetin { color: --muted--; font-size: 0.94rem; }
+  .modulex-zaman-akademik-takvim-oikon { color: --accentInk--; font-size: 26px; }
+  @keyframes modulex-zaman-akademik-takvim-sayacGel { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+  @media (max-width: 768px) {
+    .modulex-zaman-akademik-takvim-arac { display: grid; justify-content: stretch; }
+    .modulex-zaman-akademik-takvim-sayac { display: flex; }
+    .modulex-zaman-akademik-takvim-skalan { margin-inline-start: auto; }
+    .modulex-zaman-akademik-takvim-aylar { grid-auto-columns: 68px; }
+    .modulex-zaman-akademik-takvim-olay { grid-template-columns: 58px minmax(0, 1fr); gap: 12px; }
+    .modulex-zaman-akademik-takvim-oikon { display: none; }
+  }
+  .modulex-zaman-akademik-takvim-bag { color: inherit; text-decoration: none; }
+  .modulex-zaman-akademik-takvim-bag::after { content: ""; position: absolute; inset: 0; z-index: 3; }
+  .modulex-zaman-akademik-takvim-bag:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-zaman-akademik-takvim :is(.modulex-zaman-akademik-takvim-baslik, .modulex-zaman-akademik-takvim-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-zaman-akademik-takvim-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-zaman-akademik-takvim { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-zaman-akademik-takvim *, .modulex-zaman-akademik-takvim *::before, .modulex-zaman-akademik-takvim *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-zaman-akademik-takvim";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const akademikTakvim = (s, P) => {
+        const kok = s.querySelector("[data-takvim]");
+        if (!kok) return;
+        s.classList.add(P + "--js");
+        const dl = document.documentElement.lang || undefined;
+        const gun = (v) => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(v || ""); return m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) : NaN; };
+        const n = new Date();
+        const bugun = Date.UTC(n.getFullYear(), n.getMonth(), n.getDate());
+        const olay = [...kok.querySelectorAll("[data-gun]")].map((e) => {
+          const b = gun(e.dataset.gun);
+          const son = gun(e.dataset.son);
+          return { e, b, son: Number.isFinite(son) ? son : b };
+        }).filter((o) => Number.isFinite(o.b));
+        olay.forEach((o) => {
+          o.e.classList.toggle(P + "--gecti", o.son < bugun);
+          o.e.classList.toggle(P + "--suruyor", o.b <= bugun && o.son >= bugun);
+        });
+        const ay = n.getFullYear() + "-" + String(n.getMonth() + 1).padStart(2, "0");
+        const hucre = kok.querySelector('[data-ay="' + ay + '"]');
+        if (hucre) {
+          const gs = new Date(n.getFullYear(), n.getMonth() + 1, 0).getDate();
+          hucre.classList.add(P + "--bugun");
+          hucre.setAttribute("aria-current", "date");
+          hucre.style.setProperty("--gun", ((n.getDate() - 0.5) / gs).toFixed(3));
+          const et = document.createElement("span");
+          et.className = P + "-bugun";
+          try { et.textContent = new Intl.DateTimeFormat(dl, { day: "numeric", month: "short" }).format(n); } catch (x) { et.textContent = String(n.getDate()); }
+          hucre.append(et);
+        }
+        const sayac = kok.querySelector("[data-sayac]");
+        const bag = sayac && sayac.querySelector("[data-sbag]");
+        const kalan = sayac && sayac.querySelector("[data-kalan]");
+        let rtf = null;
+        try { rtf = new Intl.RelativeTimeFormat(dl, { numeric: "auto" }); } catch (x) { rtf = null; }
+        const sayacKur = () => {
+          if (!sayac) return;
+          const o = olay.find((x) => !x.e.closest("[hidden]") && x.son >= bugun);
+          olay.forEach((x) => x.e.classList.toggle(P + "--sirada", x === o));
+          if (!o) { sayac.hidden = true; return; }
+          const g = Math.max(0, Math.round((o.b - bugun) / 864e5));
+          if (bag) { bag.textContent = o.e.dataset.baslik || ""; bag.href = "#" + o.e.id; }
+          if (kalan) {
+            const parca = rtf && rtf.formatToParts ? rtf.formatToParts(g, "day") : [{ type: "integer", value: String(g) }];
+            kalan.replaceChildren(...parca.map((p) => {
+              const e = document.createElement("span");
+              e.className = p.type === "integer" ? P + "-ssayi" : P + "-sek";
+              e.textContent = p.value;
+              return e;
+            }));
+          }
+          sayac.hidden = false;
+        };
+        const cipK = kok.querySelector("[data-cipler]");
+        const cip = cipK ? [...cipK.querySelectorAll("[data-tur]")] : [];
+        const satir = [...kok.querySelectorAll("." + P + "-olay")];
+        const nokta = [...kok.querySelectorAll("." + P + "-nokta")];
+        const grup = [...kok.querySelectorAll("." + P + "-grup")];
+        const suz = () => {
+          const sec = cip.filter((b) => b.getAttribute("aria-pressed") === "true").map((b) => b.dataset.tur);
+          const gor = (t) => !sec.length || sec.includes(t);
+          satir.forEach((e) => { e.hidden = !gor(e.dataset.tur); });
+          nokta.forEach((e) => e.classList.toggle(P + "--sonuk", !gor(e.dataset.tur)));
+          grup.forEach((g) => { g.hidden = !g.querySelector("." + P + "-olay:not([hidden])"); });
+          sayacKur();
+        };
+        if (cipK) {
+          cipK.hidden = false;
+          cip.forEach((b) => b.addEventListener("click", () => {
+            b.setAttribute("aria-pressed", String(b.getAttribute("aria-pressed") !== "true"));
+            suz();
+          }));
+        }
+        suz();
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      akademikTakvim(s, P, az);
+    });
+  })();
+</script>

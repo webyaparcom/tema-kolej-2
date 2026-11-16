@@ -1,0 +1,40 @@
+{
+  "id": "ujps1k7gxt",
+  "name": {
+    "tr": "Topluluk",
+    "en": "Community",
+    "ar": "المجتمع"
+  },
+  "description": {
+    "tr": "Veli, öğrenci ve mezun yorumları; kulüpler (kurgusal).",
+    "en": "Parent, student and alumni reviews; clubs (fictional).",
+    "ar": "تعليقات أولياء الأمور والطلاب والخريجين؛ الأندية (افتراضية)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "x212w6",
+      "tq21zf"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Topluluk",
+    "en": "Community",
+    "ar": "المجتمع"
+  },
+  "date": "2026-11-16T11:58:06.542Z",
+  "update": "2026-11-16T12:04:16.132Z"
+}

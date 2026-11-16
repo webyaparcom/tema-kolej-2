@@ -1,0 +1,48 @@
+{
+  "name": {
+    "tr": "Okulumuz",
+    "en": "Our school",
+    "ar": "مدرستنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 1,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "372a9m",
+      "tq21zf",
+      "zw1it2"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Ortaokul ve lise; program, kulüpler ve takvim.",
+    "en": "Middle and high school; timetable, clubs and calendar.",
+    "ar": "المرحلتان المتوسطة والثانوية؛ الجدول والأندية والتقويم."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Okulumuz",
+    "en": "Our school",
+    "ar": "مدرستنا"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T12:04:16.121Z",
+  "date": "2026-10-30"
+}

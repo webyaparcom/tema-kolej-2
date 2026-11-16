@@ -1,0 +1,40 @@
+{
+  "id": "vbvfp2yrc3",
+  "name": {
+    "tr": "Kayıt",
+    "en": "Admissions",
+    "ar": "التسجيل"
+  },
+  "description": {
+    "tr": "Kontenjan ve akademik takvim.",
+    "en": "Places and academic calendar.",
+    "ar": "المقاعد والتقويم الأكاديمي."
+  },
+  "keyword": {
+    "tr": "teklif",
+    "en": "quote",
+    "ar": "عرض سعر"
+  },
+  "path": "teklif-al",
+  "icon": "request_quote",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "cpxycm",
+      "q2wwun"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Kayıt",
+    "en": "Admissions",
+    "ar": "التسجيل"
+  },
+  "date": "2026-11-16T11:58:06.546Z",
+  "update": "2026-11-16T12:04:16.135Z"
+}
