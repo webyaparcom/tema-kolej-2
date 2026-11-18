@@ -3,17 +3,23 @@
   "name": {
     "tr": "Öğretmenler",
     "en": "Teachers",
-    "ar": "المعلمون"
+    "ar": "المعلمون",
+    "de": "Lehrer",
+    "ru": "Учителя"
   },
   "description": {
     "tr": "Branşlara göre öğretmen kadrosu (kurgusal).",
     "en": "Teaching staff by subject (fictional).",
-    "ar": "الكادر التعليمي حسب المادة (افتراضي)."
+    "ar": "الكادر التعليمي حسب المادة (افتراضي).",
+    "de": "Lehrerkollegium nach Fach (fiktiv).",
+    "ru": "Преподавательский состав по предметам (вымышленный)."
   },
   "keyword": {
     "tr": "ekip, kadro",
     "en": "team, staff",
-    "ar": "فريق، طاقم"
+    "ar": "فريق، طاقم",
+    "de": "Team, Personal",
+    "ru": "команда, персонал"
   },
   "path": "ekip",
   "icon": "groups",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Öğretmenler",
     "en": "Teachers",
-    "ar": "المعلمون"
+    "ar": "المعلمون",
+    "de": "Lehrer",
+    "ru": "Учителя"
   },
   "date": "2026-11-16T11:58:06.532Z",
   "update": "2026-11-16T12:04:16.125Z"

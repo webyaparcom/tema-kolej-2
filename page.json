@@ -5,12 +5,16 @@
       "name": {
         "tr": "Program",
         "en": "Programme",
-        "ar": "البرنامج"
+        "ar": "البرنامج",
+        "de": "Programm",
+        "ru": "Расписание"
       },
       "description": {
         "tr": "Haftalık ders programı ve okul felsefesi.",
         "en": "Weekly timetable and school philosophy.",
-        "ar": "الجدول الأسبوعي وفلسفة المدرسة."
+        "ar": "الجدول الأسبوعي وفلسفة المدرسة.",
+        "de": "Wöchentlicher Stundenplan und Schulphilosophie.",
+        "ru": "Еженедельное расписание занятий и философия школы."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -31,7 +35,9 @@
       "name": {
         "tr": "Okulumuz",
         "en": "Our school",
-        "ar": "مدرستنا"
+        "ar": "مدرستنا",
+        "de": "Unsere Schule",
+        "ru": "О школе"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -53,7 +59,9 @@
       "description": {
         "tr": "Ortaokul ve lise; program, kulüpler ve takvim.",
         "en": "Middle and high school; timetable, clubs and calendar.",
-        "ar": "المرحلتان المتوسطة والثانوية؛ الجدول والأندية والتقويم."
+        "ar": "المرحلتان المتوسطة والثانوية؛ الجدول والأندية والتقويم.",
+        "de": "Mittel- und Oberschule; Stundenplan, Clubs und Kalender.",
+        "ru": "Средняя и старшая школа; расписание, кружки и календарь."
       }
     },
     {
@@ -61,12 +69,16 @@
       "name": {
         "tr": "Öğretmenler",
         "en": "Teachers",
-        "ar": "المعلمون"
+        "ar": "المعلمون",
+        "de": "Lehrer",
+        "ru": "Учителя"
       },
       "description": {
         "tr": "Branşlara göre öğretmen kadrosu (kurgusal).",
         "en": "Teaching staff by subject (fictional).",
-        "ar": "الكادر التعليمي حسب المادة (افتراضي)."
+        "ar": "الكادر التعليمي حسب المادة (افتراضي).",
+        "de": "Lehrerkollegium nach Fach (fiktiv).",
+        "ru": "Преподавательский состав по предметам (вымышленный)."
       },
       "path": "ekip",
       "icon": "groups",
@@ -87,12 +99,16 @@
       "name": {
         "tr": "Sözlük",
         "en": "Glossary",
-        "ar": "المصطلحات"
+        "ar": "المصطلحات",
+        "de": "Glossar",
+        "ru": "Глоссарий"
       },
       "description": {
         "tr": "Velinin sözlüğü: sık sorulan sorular.",
         "en": "The parent’s glossary: frequently asked questions.",
-        "ar": "قاموس ولي الأمر: الأسئلة الشائعة."
+        "ar": "قاموس ولي الأمر: الأسئلة الشائعة.",
+        "de": "Das Wörterbuch der Eltern: häufig gestellte Fragen.",
+        "ru": "Словарь для родителей: частые вопросы."
       },
       "path": "sorular",
       "icon": "help",
@@ -113,12 +129,16 @@
       "name": {
         "tr": "Topluluk",
         "en": "Community",
-        "ar": "المجتمع"
+        "ar": "المجتمع",
+        "de": "Community",
+        "ru": "Сообщество"
       },
       "description": {
         "tr": "Veli, öğrenci ve mezun yorumları; kulüpler (kurgusal).",
         "en": "Parent, student and alumni reviews; clubs (fictional).",
-        "ar": "تعليقات أولياء الأمور والطلاب والخريجين؛ الأندية (افتراضية)."
+        "ar": "تعليقات أولياء الأمور والطلاب والخريجين؛ الأندية (افتراضية).",
+        "de": "Stimmen von Eltern, Schülern und Ehemaligen; Clubs (fiktiv).",
+        "ru": "Отзывы родителей, учеников и выпускников; клубы (условные)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -139,12 +159,16 @@
       "name": {
         "tr": "Kayıt",
         "en": "Admissions",
-        "ar": "التسجيل"
+        "ar": "التسجيل",
+        "de": "Anmeldung",
+        "ru": "Запись"
       },
       "description": {
         "tr": "Kontenjan ve akademik takvim.",
         "en": "Places and academic calendar.",
-        "ar": "المقاعد والتقويم الأكاديمي."
+        "ar": "المقاعد والتقويم الأكاديمي.",
+        "de": "Platzkontingent und Schuljahreskalender.",
+        "ru": "Квота мест и академический календарь."
       },
       "path": "teklif-al",
       "icon": "request_quote",
@@ -164,7 +188,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -185,7 +211,9 @@
       "description": {
         "tr": "Adres, telefon ve çalışma saatleri.",
         "en": "Address, phone and opening hours.",
-        "ar": "العنوان والهاتف وساعات العمل."
+        "ar": "العنوان والهاتف وساعات العمل.",
+        "de": "Adresse, Telefon und Öffnungszeiten.",
+        "ru": "Адрес, телефон и часы работы."
       }
     }
   ],
