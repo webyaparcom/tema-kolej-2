@@ -4,12 +4,16 @@
   "description": {
     "tr": "Atlas Koleji: ortaokul ve lisede ders programı, kulüpler, akademik takvim ve ön kayıt. Demo site; içerik kurgusaldır.",
     "en": "Atlas College: middle and high school timetable, clubs, academic calendar and pre-registration. Demo site; content is fictional.",
-    "ar": "كلية أطلس: الجدول الدراسي للمرحلتين المتوسطة والثانوية والأندية والتقويم الأكاديمي والتسجيل المسبق. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "كلية أطلس: الجدول الدراسي للمرحلتين المتوسطة والثانوية والأندية والتقويم الأكاديمي والتسجيل المسبق. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Atlas Koleji: Stundenplan, AGs, Schuljahreskalender und Voranmeldung für Mittel- und Oberstufe. Demo-Website; Inhalte sind fiktiv.",
+    "ru": "Atlas Koleji: расписание, кружки, учебный календарь и предварительная запись для средней и старшей школы. Демо-сайт; содержимое вымышленное."
   },
   "keyword": {
     "tr": "özel okul, kolej, ortaokul, lise, ön kayıt, açık gün",
     "en": "private school, college, middle school, high school, pre-registration, open day",
-    "ar": "مدرسة خاصة، كلية، مرحلة متوسطة، مرحلة ثانوية، تسجيل مسبق، يوم مفتوح"
+    "ar": "مدرسة خاصة، كلية، مرحلة متوسطة، مرحلة ثانوية، تسجيل مسبق، يوم مفتوح",
+    "de": "Privatschule, Kolleg, Mittelstufe, Oberstufe, Voranmeldung, Tag der offenen Tür",
+    "ru": "частная школа, колледж, средняя школа, лицей, предварительная запись, день открытых дверей"
   },
   "category": "Kurumsal",
   "name": "Atlas Koleji",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

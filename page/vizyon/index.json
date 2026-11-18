@@ -3,17 +3,23 @@
   "name": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "description": {
     "tr": "Vizyonumuz",
     "en": "Our vision",
-    "ar": "رؤيتنا"
+    "ar": "رؤيتنا",
+    "de": "Unsere Vision",
+    "ru": "Наше видение"
   },
   "keyword": {
     "tr": "Vizyon",
     "en": "vision, our vision, goals",
-    "ar": "الرؤية, رؤيتنا, الأهداف"
+    "ar": "الرؤية, رؤيتنا, الأهداف",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "path": "vizyon",
   "icon": "visibility",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Vizyonumuz</h2>\n<p>Velisiyle açık iletişim kuran, sakin ve meraklı bir mahalle okulu olmak.</p>",
     "en": "<h2>Our vision</h2>\n<p>To be a calm, curious neighbourhood school in open contact with parents.</p>",
-    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مدرسة حيّ هادئة وفضولية على تواصل مفتوح مع أولياء الأمور.</p>"
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مدرسة حيّ هادئة وفضولية على تواصل مفتوح مع أولياء الأمور.</p>",
+    "de": "<h2>Unsere Vision</h2>\n<p>Ein ruhige, neugierige Nachbarschule mit offenem Kontakt zu den Eltern zu sein.</p>",
+    "ru": "<h2>Наше видение</h2>\n<p>Быть спокойной, любознательной школой в районе, поддерживающей открытый контакт с родителями.</p>"
   },
   "title": {
     "tr": "Vizyon",
     "en": "Vision",
-    "ar": "الرؤية"
+    "ar": "الرؤية",
+    "de": "Vision",
+    "ru": "Видение"
   },
   "date": "2026-11-16T11:58:06.365Z",
   "update": "2026-11-16T12:04:16.144Z",

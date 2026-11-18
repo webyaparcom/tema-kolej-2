@@ -3,17 +3,23 @@
   "name": {
     "tr": "Sözlük",
     "en": "Glossary",
-    "ar": "المصطلحات"
+    "ar": "المصطلحات",
+    "de": "Glossar",
+    "ru": "Глоссарий"
   },
   "description": {
     "tr": "Velinin sözlüğü: sık sorulan sorular.",
     "en": "The parent’s glossary: frequently asked questions.",
-    "ar": "قاموس ولي الأمر: الأسئلة الشائعة."
+    "ar": "قاموس ولي الأمر: الأسئلة الشائعة.",
+    "de": "Das Wörterbuch der Eltern: häufig gestellte Fragen.",
+    "ru": "Словарь для родителей: частые вопросы."
   },
   "keyword": {
     "tr": "sss, soru cevap",
     "en": "faq, questions",
-    "ar": "أسئلة وأجوبة"
+    "ar": "أسئلة وأجوبة",
+    "de": "FAQ, Fragen und Antworten",
+    "ru": "FAQ, вопросы и ответы"
   },
   "path": "sorular",
   "icon": "help",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Sözlük",
     "en": "Glossary",
-    "ar": "المصطلحات"
+    "ar": "المصطلحات",
+    "de": "Glossar",
+    "ru": "Глоссарий"
   },
   "date": "2026-11-16T11:58:06.537Z",
   "update": "2026-11-16T12:04:16.128Z"

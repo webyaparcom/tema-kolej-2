@@ -3,17 +3,23 @@
   "name": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "description": {
     "tr": "Kalite politikamız",
     "en": "Our quality policy",
-    "ar": "سياسة الجودة لدينا"
+    "ar": "سياسة الجودة لدينا",
+    "de": "Unsere Qualitätspolitik",
+    "ru": "Наша политика качества"
   },
   "keyword": {
     "tr": "Kalite Politikamız",
     "en": "quality policy, quality, continuous improvement",
-    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "path": "kalitepolitikamiz",
   "icon": "verified",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Kalite Politikamız</h2>\n<p>Küçük sınıflar, haftalık laboratuvar saati, veli görüşmesi ve KVKK uyumlu veri işleme.</p>",
     "en": "<h2>Our quality policy</h2>\n<p>Small classes, a weekly lab hour, parent meetings and privacy-compliant data handling.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>فصول صغيرة وساعة مختبر أسبوعية ولقاءات أولياء الأمور ومعالجة بيانات وفق قانون حماية البيانات.</p>"
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>فصول صغيرة وساعة مختبر أسبوعية ولقاءات أولياء الأمور ومعالجة بيانات وفق قانون حماية البيانات.</p>",
+    "de": "<h2>Unsere Qualitätspolitik</h2>\n<p>Kleine Klassen, wöchentliche Laborstunde, Elterngespräch und KVKK-konforme Datenverarbeitung.</p>",
+    "ru": "<h2>Наша политика качества</h2>\n<p>Малые классы, еженедельный лабораторный час, встречи с родителями и обработка данных в соответствии с KVKK.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
     "en": "Quality Policy",
-    "ar": "سياسة الجودة"
+    "ar": "سياسة الجودة",
+    "de": "Qualitätspolitik",
+    "ru": "Политика качества"
   },
   "date": "2026-11-16T11:58:06.365Z",
   "update": "2026-11-16T12:04:16.145Z",

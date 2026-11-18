@@ -3,17 +3,23 @@
   "name": {
     "tr": "Topluluk",
     "en": "Community",
-    "ar": "المجتمع"
+    "ar": "المجتمع",
+    "de": "Community",
+    "ru": "Сообщество"
   },
   "description": {
     "tr": "Veli, öğrenci ve mezun yorumları; kulüpler (kurgusal).",
     "en": "Parent, student and alumni reviews; clubs (fictional).",
-    "ar": "تعليقات أولياء الأمور والطلاب والخريجين؛ الأندية (افتراضية)."
+    "ar": "تعليقات أولياء الأمور والطلاب والخريجين؛ الأندية (افتراضية).",
+    "de": "Stimmen von Eltern, Schülern und Ehemaligen; Clubs (fiktiv).",
+    "ru": "Отзывы родителей, учеников и выпускников; клубы (условные)."
   },
   "keyword": {
     "tr": "referans, müşteri yorumu",
     "en": "reference, review",
-    "ar": "مرجع، تقييم"
+    "ar": "مرجع، تقييم",
+    "de": "Referenz, Kundenbewertung",
+    "ru": "рекомендация, отзыв клиента"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Topluluk",
     "en": "Community",
-    "ar": "المجتمع"
+    "ar": "المجتمع",
+    "de": "Community",
+    "ru": "Сообщество"
   },
   "date": "2026-11-16T11:58:06.542Z",
   "update": "2026-11-16T12:04:16.132Z"

@@ -3,17 +3,23 @@
   "name": {
     "tr": "Program",
     "en": "Programme",
-    "ar": "البرنامج"
+    "ar": "البرنامج",
+    "de": "Programm",
+    "ru": "Расписание"
   },
   "description": {
     "tr": "Haftalık ders programı ve okul felsefesi.",
     "en": "Weekly timetable and school philosophy.",
-    "ar": "الجدول الأسبوعي وفلسفة المدرسة."
+    "ar": "الجدول الأسبوعي وفلسفة المدرسة.",
+    "de": "Wöchentlicher Stundenplan und Schulphilosophie.",
+    "ru": "Еженедельное расписание занятий и философия школы."
   },
   "keyword": {
     "tr": "Okul felsefesi",
     "en": "Our philosophy",
-    "ar": "فلسفتنا"
+    "ar": "فلسفتنا",
+    "de": "Schulphilosophie",
+    "ru": "Философия школы"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -34,7 +40,9 @@
   "title": {
     "tr": "Program",
     "en": "Programme",
-    "ar": "البرنامج"
+    "ar": "البرنامج",
+    "de": "Programm",
+    "ru": "Расписание"
   },
   "date": "2026-11-16T11:58:06.518Z",
   "update": "2026-11-16T12:04:16.118Z"

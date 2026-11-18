@@ -3,17 +3,23 @@
   "name": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "description": {
     "tr": "Misyonumuz",
     "en": "Our mission",
-    "ar": "مهمتنا"
+    "ar": "مهمتنا",
+    "de": "Unsere Mission",
+    "ru": "Наша миссия"
   },
   "keyword": {
     "tr": "Misyon",
     "en": "mission, our mission, corporate responsibility",
-    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية"
+    "ar": "الرسالة, رسالتنا, المسؤولية المؤسسية",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "path": "misyon",
   "icon": "flag",
@@ -29,12 +35,16 @@
   "text": {
     "tr": "<h2>Misyonumuz</h2>\n<p>Her öğrencinin merakını, okuma alışkanlığını ve birlikte çalışma becerisini güvenli bir okulda büyütmek.</p>",
     "en": "<h2>Our mission</h2>\n<p>To grow every student’s curiosity, reading habit and teamwork in a safe school.</p>",
-    "ar": "<h2>مهمتنا</h2>\n<p>تنمية فضول كل طالب وعادة القراءة والعمل الجماعي في مدرسة آمنة.</p>"
+    "ar": "<h2>مهمتنا</h2>\n<p>تنمية فضول كل طالب وعادة القراءة والعمل الجماعي في مدرسة آمنة.</p>",
+    "de": "<h2>Unsere Mission</h2>\n<p>Jede Neugier, jedes Leseinteresse und jede Teamfähigkeit der Schüler in einer sicheren Schule fördern.</p>",
+    "ru": "<h2>Наша миссия</h2>\n<p>Развивать любопытство, привычку к чтению и навыки командной работы каждого ученика в безопасной школе.</p>"
   },
   "title": {
     "tr": "Misyon",
     "en": "Mission",
-    "ar": "المهمة"
+    "ar": "المهمة",
+    "de": "Mission",
+    "ru": "Миссия"
   },
   "date": "2026-11-16T11:58:06.365Z",
   "update": "2026-11-16T12:04:16.143Z",
